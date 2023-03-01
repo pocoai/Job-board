@@ -10,7 +10,7 @@ module.exports = {
     DEV_SSR: true
   },
   plugins: [
-    "gatsby-plugin-google-gtag",
+//    "gatsby-plugin-google-gtag",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

@@ -10,7 +10,6 @@ specifiers:
   formik: ^2.2.9
   framer-motion: ^10.0.0
   gatsby: ^5.7.0
-  gatsby-plugin-google-gtag: ^5.7.0
   gatsby-plugin-image: ^3.7.0
   gatsby-plugin-pnpm: ^1.2.10
   gatsby-plugin-sharp: ^5.7.0
@@ -31,7 +30,6 @@ dependencies:
   formik: 2.2.9_react@18.2.0
   framer-motion: 10.0.0_biqbaboplfbrettd7655fr4n2y
   gatsby: 5.7.0_biqbaboplfbrettd7655fr4n2y
-  gatsby-plugin-google-gtag: 5.7.0_hgefj54jzwya6t5wz7qwyqdbja
   gatsby-plugin-image: 3.7.0_em5jjaogr4n5koc6ex7kiyef4y
   gatsby-plugin-pnpm: 1.2.10_gatsby@5.7.0
   gatsby-plugin-sharp: 5.7.0_gatsby@5.7.0
@@ -6941,21 +6939,6 @@ packages:
       '@parcel/runtime-js': 2.8.3_@parcel+core@2.8.3
       '@parcel/transformer-js': 2.8.3_@parcel+core@2.8.3
       '@parcel/transformer-json': 2.8.3_@parcel+core@2.8.3
-    dev: false
-
-  /gatsby-plugin-google-gtag/5.7.0_hgefj54jzwya6t5wz7qwyqdbja:
-    resolution: {integrity: sha512-nnghn/kfK4IfOWqIEkr0RMadD+0W3dyOu8YCUfsSGtTBNN+oI8bK9HSywLf3qDSXNzrBY3Qan2WXnhhW7EsgGg==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      gatsby: ^5.0.0-next
-      react: ^18.0.0 || ^0.0.0
-      react-dom: ^18.0.0 || ^0.0.0
-    dependencies:
-      '@babel/runtime': 7.20.13
-      gatsby: 5.7.0_biqbaboplfbrettd7655fr4n2y
-      minimatch: 3.1.2
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /gatsby-plugin-image/3.7.0_em5jjaogr4n5koc6ex7kiyef4y:
