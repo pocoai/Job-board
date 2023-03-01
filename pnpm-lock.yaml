@@ -6,6 +6,8 @@ specifiers:
   '@chakra-ui/react': ^2.5.1
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  chakra-ui-steps: ^2.0.4
+  formik: ^2.2.9
   framer-motion: ^10.0.0
   gatsby: ^5.7.0
   gatsby-plugin-google-gtag: ^5.7.0
@@ -15,6 +17,7 @@ specifiers:
   gatsby-plugin-sitemap: ^6.7.0
   gatsby-source-filesystem: ^5.7.0
   gatsby-transformer-sharp: ^5.7.0
+  image-to-base64: ^2.2.0
   react: ^18.2.0
   react-dom: ^18.2.0
 
@@ -24,6 +27,8 @@ dependencies:
   '@chakra-ui/react': 2.5.1_dwwqxmfm3qb3lmzuxrwexlhzkm
   '@emotion/react': 11.10.6_react@18.2.0
   '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
+  chakra-ui-steps: 2.0.4_lpn2qpf7aii6pv5x7x2lw7r6ei
+  formik: 2.2.9_react@18.2.0
   framer-motion: 10.0.0_biqbaboplfbrettd7655fr4n2y
   gatsby: 5.7.0_biqbaboplfbrettd7655fr4n2y
   gatsby-plugin-google-gtag: 5.7.0_hgefj54jzwya6t5wz7qwyqdbja
@@ -33,6 +38,7 @@ dependencies:
   gatsby-plugin-sitemap: 6.7.0_hgefj54jzwya6t5wz7qwyqdbja
   gatsby-source-filesystem: 5.7.0_gatsby@5.7.0
   gatsby-transformer-sharp: 5.7.0_mca2qtfijqpqb76t5cuywdyjfq
+  image-to-base64: 2.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -4816,6 +4822,22 @@ packages:
       upper-case-first: 2.0.2
     dev: false
 
+  /chakra-ui-steps/2.0.4_lpn2qpf7aii6pv5x7x2lw7r6ei:
+    resolution: {integrity: sha512-aImiPsw3hgqvfb9z3TVkt8WK32Hg0OOrJE5g/2Pt/1cA1Wqps2vDcWKShp8JZZQ1nyvNX3rxtrjPoDeRWdBO4A==}
+    peerDependencies:
+      '@chakra-ui/react': '*'
+      '@emotion/react': '*'
+      '@emotion/styled': '*'
+      framer-motion: '*'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/react': 2.5.1_dwwqxmfm3qb3lmzuxrwexlhzkm
+      '@emotion/react': 11.10.6_react@18.2.0
+      '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
+      framer-motion: 10.0.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+    dev: false
+
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
@@ -5514,6 +5536,11 @@ packages:
 
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
+    dev: false
+
+  /deepmerge/2.2.1:
+    resolution: {integrity: sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /deepmerge/4.3.0:
@@ -6666,6 +6693,21 @@ packages:
       mime-types: 2.1.35
     dev: false
 
+  /formik/2.2.9_react@18.2.0:
+    resolution: {integrity: sha512-LQLcISMmf1r5at4/gyJigGn0gOwFbeEAlji+N9InZF6LIMXnFNkO42sCI8Jt84YZggpD4cPWObAZaxpEFtSzNA==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      deepmerge: 2.2.1
+      hoist-non-react-statics: 3.3.2
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+      react: 18.2.0
+      react-fast-compare: 2.0.4
+      tiny-warning: 1.0.3
+      tslib: 1.14.1
+    dev: false
+
   /forwarded/0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
@@ -7800,6 +7842,14 @@ packages:
     engines: {node: '>= 4'}
     dev: false
 
+  /image-to-base64/2.2.0:
+    resolution: {integrity: sha512-Z+aMwm/91UOQqHhrz7Upre2ytKhWejZlWV/JxUTD1sT7GWWKFDJUEV5scVQKnkzSgPHFuQBUEWcanO+ma0PSVw==}
+    dependencies:
+      node-fetch: 2.6.9
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /immer/9.0.15:
     resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
     dev: false
@@ -8445,6 +8495,10 @@ packages:
 
   /lock/1.1.0:
     resolution: {integrity: sha512-NZQIJJL5Rb9lMJ0Yl1JoVr9GSdo4HTPsUEWsSFzB8dE8DSoiLCVavWZPi7Rnlv/o73u6I24S/XYc/NmG4l8EKA==}
+    dev: false
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
     dev: false
 
   /lodash.clonedeep/4.5.0:
@@ -9965,6 +10019,10 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: false
 
+  /react-fast-compare/2.0.4:
+    resolution: {integrity: sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==}
+    dev: false
+
   /react-fast-compare/3.2.0:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: false
@@ -11053,6 +11111,10 @@ packages:
 
   /tiny-invariant/1.3.1:
     resolution: {integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==}
+    dev: false
+
+  /tiny-warning/1.0.3:
+    resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
     dev: false
 
   /title-case/3.0.3:

@@ -6,6 +6,9 @@ module.exports = {
     title: `job-board`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     "gatsby-plugin-google-gtag",
     `gatsby-plugin-image`,
@@ -14,14 +17,14 @@ module.exports = {
     "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-plugin-pnpm`,
-      options: {
-        // projectPath: path.dirname(__dirname), // use parent directory as project root
-        include: [
-          `babel-plugin-lodash`, // <- resolve this package name
-          `/home/amit/codelib/web/job-board/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash` // <- resolve from this directory
-        ],
-        // strict: true
-      }
+      // options: {
+      //   // projectPath: path.dirname(__dirname), // use parent directory as project root
+      //   include: [
+      //     `babel-plugin-lodash`, // <- resolve this package name
+      //     `/home/amit/codelib/web/job-board/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash` // <- resolve from this directory
+      //   ],
+      //   // strict: true
+      // }
     },
     {
       resolve: '@chakra-ui/gatsby-plugin',

@@ -38,7 +38,7 @@ const JobCard = ({ job }) => {
                     {job.salary_start && (<Stack direction={'row'}><SvgDollarSignSvgrepoCom /><Text>{job.salary_start} - {job.salary_end}K</Text></Stack>)}
 
                     {/* Tags */}
-                    <Stack direction={'row'} spacing={2}>{job.tags.map((tag, index) => (<Tag key={index} variant={'outline'}>{tag}</Tag>))}</Stack>
+                    {job.tags && <Stack direction={'row'} spacing={2}>{job.tags.map((tag, index) => (<Tag key={index} variant={'outline'}>{tag}</Tag>))}</Stack>}
 
                 </Box>
             </Stack>

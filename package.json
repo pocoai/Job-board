@@ -23,6 +23,8 @@
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "chakra-ui-steps": "^2.0.4",
+    "formik": "^2.2.9",
     "framer-motion": "^10.0.0",
     "gatsby": "^5.7.0",
     "gatsby-plugin-google-gtag": "^5.7.0",
@@ -32,6 +34,7 @@
     "gatsby-plugin-sitemap": "^6.7.0",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
+    "image-to-base64": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
