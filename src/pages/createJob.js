@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Input, Center, VStack, Button, Flex, FormControl, FormLabel, Select, Tabs, TabList, TabPanels, Tab, TabPanel, Textarea } from '@chakra-ui/react'
+import { Input, HStack, Center, VStack, Button, Flex, FormControl, FormLabel, Select, Tabs, TabList, TabPanels, Tab, TabPanel, Textarea } from '@chakra-ui/react'
 import imageToBase64 from 'image-to-base64/browser'
 import { Formik, Field } from 'formik'
 import NavBar from '../components/NavBar'
@@ -14,12 +14,13 @@ const CreateJob = () => {
         let reader = new FileReader()
         reader.readAsDataURL(file)
         reader.onload = () => {
-          setJob({
-            company_logo: reader.result
-          })
+            setJob({
+                company_logo: reader.result
+            })
+            console.log("done", reader.result)
         };
         reader.onerror = function (error) {
-          console.log('Error: ', error);
+            console.log('Error: ', error);
         }
     }
 
@@ -48,8 +49,8 @@ const CreateJob = () => {
                                         location: '',
                                         salary_start: 0,
                                         salary_end: 0,
-                                        company_name:'',
-                                        company_logo:'',
+                                        company_name: '',
+                                        company_logo: '',
                                         apply_link: '',
                                         description: '',
                                         tags: []
@@ -62,7 +63,7 @@ const CreateJob = () => {
                                     {({ values, handleChange, handleSubmit }) => (
                                         <form onSubmit={handleSubmit}>
                                             <VStack spacing={4} w={'2xl'} align="flex-start">
-                                                <FormControl>
+                                                <FormControl isRequired>
                                                     <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="title">Job Title</FormLabel>
                                                     <Field
                                                         as={Input}
@@ -74,7 +75,7 @@ const CreateJob = () => {
                                                 </FormControl>
                                                 <FormControl isRequired>
                                                     <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="type">Type</FormLabel>
-                                                    <Field 
+                                                    <Field
                                                         as={Select}
                                                         id="type"
                                                         name="type"
@@ -91,7 +92,7 @@ const CreateJob = () => {
 
                                                     </Field>
                                                 </FormControl>
-                                                <FormControl>
+                                                <FormControl isRequired>
                                                     <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="location">Location</FormLabel>
                                                     <Field
                                                         as={Input}
@@ -101,27 +102,29 @@ const CreateJob = () => {
                                                         onChange={handleChange}
                                                     />
                                                 </FormControl>
-                                                <FormControl>
-                                                    <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="salary_start">Salary Start</FormLabel>
-                                                    <Field
-                                                        as={Input}
-                                                        id="salary_start"
-                                                        name="salary_start"
-                                                        type="number"
-                                                        onChange={handleChange}
-                                                    />
-                                                </FormControl>
-                                                <FormControl>
-                                                    <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="salary_end">Salary End</FormLabel>
-                                                    <Field
-                                                        as={Input}
-                                                        id="salary_end"
-                                                        name="salary_end"
-                                                        type="number"
-                                                        onChange={handleChange}
-                                                    />
-                                                </FormControl>
-                                                <FormControl>
+                                                <HStack spacing={4}>
+                                                    <FormControl>
+                                                        <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="salary_start">Salary (Min)</FormLabel>
+                                                        <Field
+                                                            as={Input}
+                                                            id="salary_start"
+                                                            name="salary_start"
+                                                            type="number"
+                                                            onChange={handleChange}
+                                                        />
+                                                    </FormControl>
+                                                    <FormControl>
+                                                        <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="salary_end">Salary (Max)</FormLabel>
+                                                        <Field
+                                                            as={Input}
+                                                            id="salary_end"
+                                                            name="salary_end"
+                                                            type="number"
+                                                            onChange={handleChange}
+                                                        />
+                                                    </FormControl>
+                                                </HStack>
+                                                <FormControl >
                                                     <FormLabel fontWeight={'semibold'} fontSize={'sm'} htmlFor="company_name">Company Name</FormLabel>
                                                     <Field
                                                         as={Input}
@@ -142,7 +145,7 @@ const CreateJob = () => {
                                                         variant="none"
                                                     />
                                                 </FormControl>
-                                                <FormControl>
+                                                <FormControl isRequired>
                                                     <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="apply_link">Apply Link</FormLabel>
                                                     <Field
                                                         as={Input}
@@ -163,7 +166,7 @@ const CreateJob = () => {
                                                         onChange={handleChange}
                                                     />
                                                 </FormControl>
-                                                <FormControl>
+                                                {/* <FormControl>
                                                     <FormLabel fontWeight='semibold' fontSize={'sm'} htmlFor="tags">Tags</FormLabel>
                                                     <Field
                                                         as={Input}
@@ -172,7 +175,7 @@ const CreateJob = () => {
                                                         type="text"
                                                         onChange={handleChange}
                                                     />
-                                                </FormControl>
+                                                </FormControl> */}
                                                 <Button colorScheme={'blue'} type="submit">Save And Continue</Button>
                                             </VStack>
                                         </form>
@@ -182,6 +185,7 @@ const CreateJob = () => {
                         </TabPanel>
                         <TabPanel>
                             <JobCard job={job} />
+                            {/* TODO: Add a button to post the job to database */}
                             <Button colorScheme={'blue'} type='submit' >Post</Button>
                         </TabPanel>
                     </TabPanels>

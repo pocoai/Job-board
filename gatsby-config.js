@@ -4,27 +4,38 @@
 module.exports = {
   siteMetadata: {
     title: `job-board`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://job-board-sandy.vercel.app/`
   },
-  flags: {
-    DEV_SSR: true
-  },
+  // flags: {
+  //   DEV_SSR: true
+  // },
   plugins: [
-//    "gatsby-plugin-google-gtag",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-plugin-pnpm`,
-      // options: {
-      //   // projectPath: path.dirname(__dirname), // use parent directory as project root
-      //   include: [
-      //     `babel-plugin-lodash`, // <- resolve this package name
-      //     `/home/amit/codelib/web/job-board/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash` // <- resolve from this directory
-      //   ],
-      //   // strict: true
-      // }
+    },
+    {
+      resolve: 'gatsby-source-json',
+      options: {
+        // name the gatsby node
+        name: 'swapi',
+        // url for JSON endpoint
+        uri: 'https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs',
+        // Basic Auth if required (optional)
+        // auth: {
+        //   'xc-auth': process.env.XC_AUTH,
+        // },
+        // HTTP headers (optional)
+        headers: {
+          'accept': 'application/json',
+          'xc-auth': `${process.env.XC_AUTH}`, // try by replacing with your own key
+        },
+        // image location to process images. Default: "image.url"
+        // image_location: "image.url",
+      }
     },
     {
       resolve: '@chakra-ui/gatsby-plugin',

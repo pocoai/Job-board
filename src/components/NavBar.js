@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Text, Button, Flex, Spacer } from "@chakra-ui/react"
+import { Text, Button, Flex, Spacer, LinkOverlay, LinkBox } from "@chakra-ui/react"
 
 const NavBar = () => {
     return (
@@ -7,7 +7,7 @@ const NavBar = () => {
             <Flex p={'3vw'}>
                 <Text fontSize={'2xl'} fontWeight='extrabold' >AI jobs</Text>
                 <Spacer />
-                <Button colorScheme='blue'>Post a Job for free</Button>
+                <LinkBox><LinkOverlay href='/createJob'><Button colorScheme='blue'>Post a Job for free</Button></LinkOverlay></LinkBox>
             </Flex>
         </nav>
     )
