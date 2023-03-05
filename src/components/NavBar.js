@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <nav>
             <Flex p={'3vw'}>
-                <Text fontSize={'2xl'} fontWeight='extrabold' >AI jobs</Text>
+                <LinkBox><LinkOverlay href='/'><Text fontSize={'2xl'} fontWeight='extrabold' >AI jobs</Text></LinkOverlay></LinkBox>
                 <Spacer />
                 <LinkBox><LinkOverlay href='/createJob'><Button colorScheme='blue'>Post a Job for free</Button></LinkOverlay></LinkBox>
             </Flex>
