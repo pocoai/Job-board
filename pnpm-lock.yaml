@@ -16,7 +16,7 @@ specifiers:
   gatsby-plugin-sharp: ^5.7.0
   gatsby-plugin-sitemap: ^6.7.0
   gatsby-source-filesystem: ^5.7.0
-  gatsby-source-json: github:jeremylynch/gatsby-source-json
+  gatsby-source-json: github:amit0617/gatsby-source-json-api
   gatsby-transformer-sharp: ^5.7.0
   image-to-base64: ^2.2.0
   react: ^18.2.0
@@ -38,7 +38,7 @@ dependencies:
   gatsby-plugin-sharp: 5.7.0_gatsby@5.7.0
   gatsby-plugin-sitemap: 6.7.0_hgefj54jzwya6t5wz7qwyqdbja
   gatsby-source-filesystem: 5.7.0_gatsby@5.7.0
-  gatsby-source-json: github.com/jeremylynch/gatsby-source-json/f14bf48f6519342544e099b622dea6d944dfc50c_gatsby@5.7.0
+  gatsby-source-json: github.com/amit0617/gatsby-source-json-api/25d399e28375c0559bfc4a64f03d9acd1b9bc08a_gatsby@5.7.0
   gatsby-transformer-sharp: 5.7.0_mca2qtfijqpqb76t5cuywdyjfq
   image-to-base64: 2.2.0
   react: 18.2.0
@@ -3844,6 +3844,7 @@ packages:
 
   /@types/sharp/0.31.1:
     resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
+    requiresBuild: true
     dependencies:
       '@types/node': 18.6.3
     dev: false
@@ -12186,9 +12187,9 @@ packages:
       strip-ansi: 5.2.0
     dev: false
 
-  github.com/jeremylynch/gatsby-source-json/f14bf48f6519342544e099b622dea6d944dfc50c_gatsby@5.7.0:
-    resolution: {tarball: https://codeload.github.com/jeremylynch/gatsby-source-json/tar.gz/f14bf48f6519342544e099b622dea6d944dfc50c}
-    id: github.com/jeremylynch/gatsby-source-json/f14bf48f6519342544e099b622dea6d944dfc50c
+  github.com/amit0617/gatsby-source-json-api/25d399e28375c0559bfc4a64f03d9acd1b9bc08a_gatsby@5.7.0:
+    resolution: {tarball: https://codeload.github.com/amit0617/gatsby-source-json-api/tar.gz/25d399e28375c0559bfc4a64f03d9acd1b9bc08a}
+    id: github.com/amit0617/gatsby-source-json-api/25d399e28375c0559bfc4a64f03d9acd1b9bc08a
     name: gatsby-source-json
     version: 1.0.0
     dependencies:

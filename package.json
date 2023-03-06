@@ -33,7 +33,7 @@
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-sitemap": "^6.7.0",
     "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-source-json": "github:jeremylynch/gatsby-source-json",
+    "gatsby-source-json": "github:amit0617/gatsby-source-json-api",
     "gatsby-transformer-sharp": "^5.7.0",
     "image-to-base64": "^2.2.0",
     "react": "^18.2.0",
