@@ -19,61 +19,40 @@ import {
 import LocationLogo from '../components/LocationLogo';
 import SvgCompanyLogo from '../components/CompanyLogo';
 import SvgDollarSignSvgrepoCom from '../components/DollarLogo';
+import aiJobs from '../../content/ai-jobs.json'
+import dataJobs from '../../content/datajobs_jobs.json'
+import machinehack from '../../content/machinehack_jobs.json'
+import mlconf from '../../content/mlconf_jobs.json'
 
 const IndexPage = () => {
   const [dataObject, setDataObject] = React.useState([])
   const [numberOfPages, setNumberOfPages] = React.useState(1)
+  const allJobs = [...aiJobs, ...dataJobs, ...machinehack, ...mlconf]
   const [currentPageCount, setCurrentPageCount] = React.useState(1)
 
   const decrementPageByOne = () => {
     setCurrentPageCount(prevCurrentPageCount => prevCurrentPageCount - 1)
-    fetch(`https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs?limit=25&offset=${currentPageCount * 25}`, {
-      method: "GET",
-      headers: { "accept": "application/json", "xc-auth": process.env.XC_AUTH, }
-      }).then((response) => response.json())
-        .then((data) => {
-          setDataObject(data)
-        })
+    setDataObject(allJobs.slice((currentPageCount - 2) * 25, ((currentPageCount - 2) * 25 + 25)))
   }
 
   const incrementPageByOne = () => {
     setCurrentPageCount(prevCurrentPageCount => prevCurrentPageCount + 1)
-    fetch(`https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs?limit=25&offset=${currentPageCount * 25}`, {
-      method: "GET",
-      headers: { "accept": "application/json", "xc-auth": process.env.XC_AUTH, }
-    }).then((response) => response.json())
-      .then((data) => {
-        setDataObject(data)
-      })
-
+    setDataObject(allJobs.slice(currentPageCount * 25, currentPageCount * 25 + 25))
   }
 
   React.useEffect(() => {
     async function fetchData() {
-      await fetch("https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs", {
-        method: "GET",
-        headers: {
-          "accept": "application/json",
-          "xc-auth": process.env.XC_AUTH, // try by replacing with your own key
-        }
-      }).then((response) => response.json())
-        .then((data) => {
-          setDataObject(data)
-          // we will use graphql to get the data
-          // return (response.json())
-        })
-      await fetch("https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs/count", {
-        method: "GET",
-        headers: {
-          "accept": "application/json",
-          "xc-auth": process.env.XC_AUTH, // try by replacing with your own key
-        }
-      }).then((response) => response.json())
-        .then((data) => {
-          setNumberOfPages(Math.ceil(data.count / 25))
-        })
+      setDataObject(allJobs.slice(0, 25))
+      // we will use graphql to get the data
+      // return (response.json())
+
+      setNumberOfPages(Math.ceil(allJobs.length / 25))
     }
-    fetchData()
+    try {
+      fetchData()
+    } catch (error) {
+      console.log(error)
+    }
   }, [])
   return (
     <main>
@@ -83,6 +62,7 @@ const IndexPage = () => {
         <VStack >
           <EmailCard />
           {dataObject?.map((job) => {
+            // setNumberOfPages(Math.ceil(dataObject.length / 25))
             // console.log(job)
             return (
               <LinkBox variant='' key={job.id} href={job.apply_link}>
@@ -124,9 +104,9 @@ const IndexPage = () => {
             )
           })}
           <Stack p='5' justify={'center'} direction={'row'}>
-            {currentPageCount>1 ? <Button colorScheme={'blue'} onClick={decrementPageByOne}>← Previous Page</Button> : null}
+            {currentPageCount > 1 ? <Button colorScheme={'blue'} onClick={decrementPageByOne}>← Previous Page</Button> : null}
             <Box boxShadow={'outline'} bgColor='white'>{currentPageCount}</Box>
-            {currentPageCount < numberOfPages? <Button colorScheme={'blue'} onClick={incrementPageByOne}>Next Page →</Button>: null}
+            {currentPageCount < numberOfPages ? <Button colorScheme={'blue'} onClick={incrementPageByOne}>Next Page →</Button> : null}
           </Stack>
         </VStack>
 

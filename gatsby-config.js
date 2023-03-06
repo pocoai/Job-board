@@ -22,26 +22,26 @@ module.exports = {
     {
       resolve: `gatsby-plugin-pnpm`,
     },
-    {
-      resolve: 'gatsby-source-json',
-      options: {
-        // name the gatsby node
-        name: 'swapi',
-        // url for JSON endpoint
-        uri: 'https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs',
-        // Basic Auth if required (optional)
-        // auth: {
-        //   'xc-auth': process.env.XC_AUTH,
-        // },
-        // HTTP headers (optional)
-        headers: {
-          'accept': 'application/json',
-          'xc-auth': `${process.env.XC_AUTH}`, // try by replacing with your own key
-        },
-        // image location to process images. Default: "image.url"
-        // image_location: "image.url",
-      }
-    },
+    // {
+    //   resolve: 'gatsby-source-json',
+    //   options: {
+    //     // name the gatsby node
+    //     name: 'swapi',
+    //     // url for JSON endpoint
+    //     uri: 'https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs',
+    //     // Basic Auth if required (optional)
+    //     // auth: {
+    //     //   'xc-auth': process.env.XC_AUTH,
+    //     // },
+    //     // HTTP headers (optional)
+    //     headers: {
+    //       'accept': 'application/json',
+    //       'xc-auth': `${process.env.XC_AUTH}`, // try by replacing with your own key
+    //     },
+    //     // image location to process images. Default: "image.url"
+    //     // image_location: "image.url",
+    //   }
+    // },
     {
       resolve: '@chakra-ui/gatsby-plugin',
       options: {
