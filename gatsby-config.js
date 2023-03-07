@@ -15,9 +15,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-plugin-sitemap",
-    {
-      resolve: `gatsby-plugin-pnpm`,
-    },
+//    {
+//      resolve: `gatsby-plugin-pnpm`,
+//    },
     // {
     //   resolve: 'gatsby-source-json',
     //   options: {
