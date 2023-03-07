@@ -30,6 +30,7 @@
     "framer-motion": "^10.0.0",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-pnpm-gatsby-5": "^1.2.11",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-plugin-sitemap": "^6.7.0",
     "gatsby-source-filesystem": "^5.7.0",

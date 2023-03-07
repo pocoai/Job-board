@@ -13,6 +13,7 @@ specifiers:
   framer-motion: ^10.0.0
   gatsby: ^5.7.0
   gatsby-plugin-image: ^3.7.0
+  gatsby-plugin-pnpm-gatsby-5: ^1.2.11
   gatsby-plugin-sharp: ^5.7.0
   gatsby-plugin-sitemap: ^6.7.0
   gatsby-source-filesystem: ^5.7.0
@@ -34,6 +35,7 @@ dependencies:
   framer-motion: 10.0.0_biqbaboplfbrettd7655fr4n2y
   gatsby: 5.7.0_biqbaboplfbrettd7655fr4n2y
   gatsby-plugin-image: 3.7.0_em5jjaogr4n5koc6ex7kiyef4y
+  gatsby-plugin-pnpm-gatsby-5: 1.2.11_gatsby@5.7.0
   gatsby-plugin-sharp: 5.7.0_gatsby@5.7.0
   gatsby-plugin-sitemap: 6.7.0_hgefj54jzwya6t5wz7qwyqdbja
   gatsby-source-filesystem: 5.7.0_gatsby@5.7.0
@@ -7080,6 +7082,16 @@ packages:
       - supports-color
     dev: false
 
+  /gatsby-plugin-pnpm-gatsby-5/1.2.11_gatsby@5.7.0:
+    resolution: {integrity: sha512-3isxA0QFNmESkUlUPDNs/kzY4c8lA5XypTULjzE00rbdHQSWVD/BFXPyr3GSvY4U7sCubAlVa8KSNR6Zf+gzLg==}
+    peerDependencies:
+      gatsby: ~2.x.x || ~3.x.x || ~4.x.x || ~5.x.x
+    dependencies:
+      gatsby: 5.7.0_biqbaboplfbrettd7655fr4n2y
+      lodash.get: 4.4.2
+      lodash.uniq: 4.5.0
+    dev: false
+
   /gatsby-plugin-sharp/5.7.0_gatsby@5.7.0:
     resolution: {integrity: sha512-LU1OwWwA3Drhk6BCAGN+OhoNJ0Gft/lz6vS/hPIS9stn41gCyOyN/qAMzgz2k4BYF5H9Dh+iRGBUrQ34b9wKcA==}
     engines: {node: '>=18.0.0'}
@@ -8571,6 +8583,10 @@ packages:
 
   /lodash.foreach/4.5.0:
     resolution: {integrity: sha512-aEXTF4d+m05rVOAUG3z4vZZ4xVexLKZGF0lIxuHZ1Hplpk/3B6Z1+/ICICYRLm7c41Z2xiejbkCkJoTlypoXhQ==}
+    dev: false
+
+  /lodash.get/4.4.2:
+    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
     dev: false
 
   /lodash.map/4.6.0:
