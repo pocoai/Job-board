@@ -43,7 +43,7 @@ const CreateJob = () => {
   const [tabIndex, setTabIndex] = React.useState(0)
 
   const supabaseUrl = process.env.GATSBY_SUPABASE_URL
-  const supabaseKey = process.env.SUPABASE_KEY
+  const supabaseKey = process.env.GATSBY_SUPABASE_KEY
   const supabase = createClient(supabaseUrl, supabaseKey)
 
   const toast = useToast()
