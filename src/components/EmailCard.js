@@ -13,33 +13,45 @@ import {
 } from '@chakra-ui/react';
 import { EmailIcon } from '@chakra-ui/icons';
 import { Field, Form, Formik } from 'formik';
+import { createClient } from '@supabase/supabase-js'
 
 const EmailCard = () => {
+	const supabaseUrl = process.env.GATSBY_SUPABASE_URL
+	const supabaseKey = process.env.SUPABASE_KEY
+	// const supabaseKey = ''
+	const supabase = createClient(supabaseUrl, supabaseKey)
+
 	const toast = useToast();
+
 	return (
 		<Formik
-			initialValues={{'email': ''}}
+			initialValues={{ 'email': '' }}
 			onSubmit={(values, actions) => {
-				setTimeout(() => {
-					fetch('https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/emails', {
-						method: 'POST',
-						headers: {
-							'accept': 'application/json',
-							'xc-auth': process.env.XC_AUTH,
-							'Content-Type': 'application/json',
-						},
-						body: JSON.stringify(values),
-					})
-						.then((response) => response.json())
-						.then((data) => {
-							toast({
-								title: `${data.email} is now subscribed to job alerts`,
-								description: 'You will receive an email when a new job is posted',
-								status: 'success',	
-								duration: 5000,
-								isClosable: true,
-							})
-						});
+				setTimeout(async () => {
+					const { data, error } = await supabase
+						.from('emails')
+						.insert([
+							values
+						])
+						.select();
+					if (data) {
+						toast({
+							title: `${data[0]['email']} is now subscribed to job alerts`,
+							description: 'You will receive an email when a new job is posted',
+							status: 'success',
+							duration: 5000,
+							isClosable: true,
+						})
+					}
+					else {
+						toast({
+							title: "Error",
+							description: `${JSON.stringify(error)}`,
+							status: "error",
+							duration: 9000,
+							isClosable: true,
+						})
+					}
 					actions.setSubmitting(false);
 					// console.log(values)
 				}, 1000);
@@ -66,7 +78,7 @@ const EmailCard = () => {
 					</Field>
 				</Form>
 			)}
-		</Formik>
+		</Formik >
 	);
 };
 

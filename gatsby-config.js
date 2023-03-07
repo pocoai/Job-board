@@ -2,10 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
   siteMetadata: {
     title: `job-board`,
@@ -28,7 +24,7 @@ module.exports = {
     //     // name the gatsby node
     //     name: 'swapi',
     //     // url for JSON endpoint
-    //     uri: 'https://nocodb.server.sakuto.in/nc/aijobs_or0b/api/v1/jobs',
+    //     uri: '',
     //     // Basic Auth if required (optional)
     //     // auth: {
     //     //   'xc-auth': process.env.XC_AUTH,

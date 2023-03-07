@@ -61,11 +61,11 @@ const IndexPage = () => {
       <Wrap justify='center' bgColor={'gray.100'}>
         <VStack >
           <EmailCard />
-          {dataObject?.map((job) => {
+          {dataObject?.map((job, index) => {
             // setNumberOfPages(Math.ceil(dataObject.length / 25))
             // console.log(job)
             return (
-              <LinkBox variant='' key={job.id} href={job.apply_link}>
+              <LinkBox variant='' key={index} href={job.apply_link}>
 
                 {/* Stack of 2 elements: Image and Box */}
                 <Stack bg={'white'} direction={'row'} w='3xl' spacing={'-4'} borderRadius='md' shadow={'base'} >
@@ -109,7 +109,6 @@ const IndexPage = () => {
             {currentPageCount < numberOfPages ? <Button colorScheme={'blue'} onClick={incrementPageByOne}>Next Page →</Button> : null}
           </Stack>
         </VStack>
-
       </Wrap>
 
     </main>

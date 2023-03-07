@@ -25,7 +25,9 @@ import {
   Tag,
   Image,
   Skeleton,
+  useToast,
 } from '@chakra-ui/react'
+import { navigate } from 'gatsby';
 import imageToBase64 from 'image-to-base64/browser'
 import LocationLogo from '../components/LocationLogo';
 import SvgCompanyLogo from '../components/CompanyLogo';
@@ -33,10 +35,30 @@ import SvgDollarSignSvgrepoCom from '../components/DollarLogo';
 import { Formik, Field } from 'formik'
 import NavBar from '../components/NavBar'
 
+import { createClient } from '@supabase/supabase-js'
+
 const CreateJob = () => {
 
   const [job, setJob] = React.useState({})
+  const [tabIndex, setTabIndex] = React.useState(0)
 
+  const supabaseUrl = process.env.GATSBY_SUPABASE_URL
+  const supabaseKey = process.env.SUPABASE_KEY
+  const supabase = createClient(supabaseUrl, supabaseKey)
+
+  const toast = useToast()
+  const toastIdRef = React.useRef()
+
+  const addToast = () => {
+    toastIdRef.current = toast({
+      title: "Redirecting",
+      description: "Redirecting you to the home page",
+      status: "info",
+      duration: 3000,
+      isClosable: true,
+    })
+  }
+  // converting uploaded image to base64
   const handleUpload = (e) => {
     var file = e.target.files[0]
     let reader = new FileReader()
@@ -52,17 +74,54 @@ const CreateJob = () => {
     }
   }
 
+  // const insert jobs into database
+  const updateDatabase = async () => {
+    const { data, error } = await supabase
+      .from('jobs')
+      .insert([
+        job,
+      ]).select()
+
+    // Display a toast with a success/error message
+    if (data) {
+      toast({
+        title: "Job Created",
+        description: `Your job for ${data[0]['title']} has been successfully created`,
+        status: "success",
+        duration: 4000,
+        isClosable: true,
+        // add a loader going right to left in 9 seconds
+        containerStyle: {
+          transition: '2s ease',
+        },
+      })
+      // redirect to home page
+      setTimeout(() => {
+        addToast()
+        navigate('/')
+      }, 5000)
+    }
+    else {
+      toast({
+        title: "Error",
+        description: `${JSON.stringify(error)}`,
+        status: "error",
+        duration: 9000,
+        isClosable: true,
+      })
+    }
+
+  }
+
   return (
     <>
       <NavBar />
-      <Tabs bgColor={'gray.100'} align='center'>
+      <Tabs bgColor={'gray.100'} index={tabIndex} align='center'>
         <TabList>
           <Tab>Job Details</Tab>
           <Tab>Job Preview</Tab>
         </TabList>
         <Center bgColor={'gray.100'}>
-
-
           <TabPanels>
             <TabPanel>
               <Flex shadow={'base'} borderRadius={'md'} justify='center' align='center' bgColor={'white'} p='5'>
@@ -201,7 +260,7 @@ const CreateJob = () => {
                                                         onChange={handleChange}
                                                     />
                                                 </FormControl> */}
-                        <Button colorScheme={'blue'} type="submit">Save And Continue</Button>
+                        <Button colorScheme={'blue'} type="submit" onClick={() => setTabIndex(1)}>Save And Continue</Button>
                       </VStack>
                     </form>
                   )}
@@ -248,7 +307,7 @@ const CreateJob = () => {
                 </LinkBox>
 
                 {/* TODO: Add a button to post the job to database */}
-                <Button colorScheme={'blue'} mt='5' type='submit' >Post</Button>
+                <Button colorScheme={'blue'} mt='5' type='submit' onClick={updateDatabase} >Post</Button>
               </Skeleton>
             </TabPanel>
           </TabPanels>
