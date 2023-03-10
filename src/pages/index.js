@@ -19,6 +19,7 @@ import {
 import LocationLogo from '../components/LocationLogo';
 import SvgCompanyLogo from '../components/CompanyLogo';
 import SvgDollarSignSvgrepoCom from '../components/DollarLogo';
+import { SEO } from '../components/seo';
 import aiJobs from '../../content/ai-jobs.json'
 import dataJobs from '../../content/datajobs_jobs.json'
 import machinehack from '../../content/machinehack_jobs.json'
@@ -117,5 +118,6 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>AI jobs</title>
-
+export const Head = () => (
+  <SEO />
+)

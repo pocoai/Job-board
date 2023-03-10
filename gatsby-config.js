@@ -4,8 +4,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `job-board`,
-    siteUrl: `https://job-board-sandy.vercel.app/`
+    title: `Job board for AI, ML and Data Science`,
+    siteUrl: `https://job-board-sandy.vercel.app/`,
+    description: `Job board for AI, ML and Data Science. Find your dream job in AI, ML and Data Science. Post your vacancies for free.`,
   },
   // flags: {
   //   DEV_SSR: true
