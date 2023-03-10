@@ -306,9 +306,11 @@ const CreateJob = () => {
                   </Stack>
                 </LinkBox>
 
+                {/* TODO: Add a button to edit job by allowing moving back in previous tab */}
+                <Button colorScheme={'yellow'} mt='5' mr='5' onClick={() => setTabIndex(0)} >Edit</Button>
                 {/* Button to post the job to database */}
                 <Button colorScheme={'blue'} mt='5' type='submit' onClick={updateDatabase} >Post</Button>
-                {/* TODO: Add a button to edit job */}
+
               </Skeleton>
             </TabPanel>
           </TabPanels>
