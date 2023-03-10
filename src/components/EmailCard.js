@@ -61,9 +61,9 @@ const EmailCard = () => {
 				<Form>
 					<Field name='email'>
 						{({ field, form }) => (
-							<FormControl isRequired bgColor='white' margin={'7'} padding={'5'} boxShadow='base' borderRadius={'md'} w={'61.8vw'}>
+							<FormControl isRequired bgColor='white' margin={'7'} padding={'5'} boxShadow='base' borderRadius={'md'} w={['sm', 'lg', 'xl', '3xl', '4xl']}>
 								<FormLabel fontSize={'2xl'} fontWeight={'extrabold'}>Job Alerts</FormLabel>
-								<Stack direction={'row'} spacing={4}>
+								<Stack direction={['column', 'row']} spacing={4}>
 									<InputGroup>
 										<InputLeftElement children={<EmailIcon />} />
 										<Input {...field} placeholder='mail@example.com' type='email' />

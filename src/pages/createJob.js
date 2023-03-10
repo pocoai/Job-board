@@ -139,7 +139,7 @@ const CreateJob = () => {
                     tags: []
                   }}
                   onSubmit={values => {
-                    alert(JSON.stringify(values, null, 2))
+                    // alert(JSON.stringify(values, null, 2))
                     setJob(values)
                   }}
                 >
@@ -269,45 +269,46 @@ const CreateJob = () => {
             </TabPanel>
             <TabPanel>
               <Skeleton isLoaded={job.title !== undefined}>
-                <LinkBox variant='' key={job.id} href={job.apply_link}>
+                <LinkBox variant='' href={job.apply_link}>
 
                   {/* Stack of 2 elements: Image and Box */}
-                  <Stack bg={'white'} direction={'row'} w='3xl' spacing={'-4'} borderRadius='md' shadow={'base'} >
+                  <Stack bg={'white'} direction={['column', 'row']} w={['sm', null, '3xl']} spacing={'-4'} borderRadius='md' shadow={'base'} >
                     {job.company_logo ? (<Image
                       borderRadius='full'
-                      boxSize='10'
+                      // boxSize='10'
                       verticalAlign={'middle'}
                       src={job.company_logo}
                       alt='Organisation Logo'
-                    />) : (<Circle size={'16'} m={'5'} bg='gray.50' ><SvgCompanyLogo /></Circle>)}
+                    />) : (<Circle size={['12', '16']} m={['3', '5']} bg='gray.50' ><SvgCompanyLogo /></Circle>)}
 
                     {/* Details of the job */}
-                    <Box w='inherit' p={'5'}>
+                    <Box w='inherit' p={['3', '4', '5']}>
 
                       {/* Title and type tag */}
                       <LinkOverlay href={job.apply_link} isExternal>
                         <Flex>
-                          <Text fontSize='xl'>{job.title}</Text>
+                          <Text fontSize={['lg', 'xl']}>{job.title}</Text>
                           <Spacer />
-                          {job.type !== 'Not mentioned' && job.type ? (<Tag fontWeight={'extrabold'}>{job.type}</Tag>) : null}
+                          {job.type !== 'Not mentioned' ? (<Tag size={['sm', 'md']} fontWeight={'extrabold'}>{job.type}</Tag>) : null}
                         </Flex>
                       </LinkOverlay>
 
                       {/* Location with logo */}
-                      <Stack direction={'row'} spacing={2}><LocationLogo /><Text>{job.location}</Text></Stack>
+                      <Stack direction={'row'} spacing={2}><LocationLogo /><Text fontSize={['md', 'lg']}>{job.location}</Text></Stack>
 
                       {/* Salary */}
-                      {job.salary_end ? (<Stack direction={'row'}><SvgDollarSignSvgrepoCom /><Text>{job.salary_start} - {job.salary_end}K</Text></Stack>) : null}
+                      {job.salary_end ? (<Stack direction={'row'}><SvgDollarSignSvgrepoCom /><Text fontSize={['md', 'lg']}>{job.salary_start} - {job.salary_end}K</Text></Stack>) : null}
 
                       {/* Tags */}
-                      {job.tags ? (<Stack direction={'row'} spacing={2}>{job.tags.map((tag, index) => (<Tag key={index} variant={'outline'}>{tag}</Tag>))}</Stack>) : null}
+                      {job.tags ? (job.tags.map((tag, index) => (<Tag key={index} size={['xs', 'sm', 'md', 'lg']} fontSize={['xs', 'sm', 'md']} p={['1', '2']} m={'1'} variant={'outline'}>{tag}</Tag>))) : null}
 
                     </Box>
                   </Stack>
                 </LinkBox>
 
-                {/* TODO: Add a button to post the job to database */}
+                {/* Button to post the job to database */}
                 <Button colorScheme={'blue'} mt='5' type='submit' onClick={updateDatabase} >Post</Button>
+                {/* TODO: Add a button to edit job */}
               </Skeleton>
             </TabPanel>
           </TabPanels>
