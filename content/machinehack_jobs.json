@@ -14,7 +14,8 @@
             "ETL",
             "SQL",
             "Data Modeling"
-        ]
+        ],
+        "id": "641149a38fc4578da80cae4a"
     },
     {
         "title": "Digital Marketing",
@@ -28,7 +29,8 @@
         "description": "<p style=\"margin-left:0px;\"><strong>Role</strong>:&nbsp;<strong>&nbsp;</strong>Digital Marketing</p><p style=\"margin-left:0px;\"><strong>Exp</strong>:&nbsp;2-3 relevant experience in Digital Marketing</p><p style=\"margin-left:0px;\"><strong>Work Location</strong>: Mumbai (Santa Cruz)</p><p style=\"margin-left:0px;\"><strong>Tech Skills</strong>: Mix of digital marketing and reporting, high on aptitude, critical thinking</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\">We need a person who knows the terminology of FMCG digital space like campaign performance analysis, customer segmentation, market behavior, etc</p><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p>",
         "tags": [
             "Digital Marketing"
-        ]
+        ],
+        "id": "641149557128068cd6201db5"
     },
     {
         "title": "Data Scientist (Content Curation)",
@@ -42,7 +44,8 @@
         "description": "<p>The Association of Data Scientists (ADaSci) is the premier global professional body of data science and machine learning professionals. It leads in the development, dissemination and implementation of knowledge, basic and applied research and technologies in analytics, decision-making, and management. The ADaSci serves as a focal point for data science, permitting them to communicate with each other and reach their professional goal, as well as the varied clientele of the profession\u2019s research and practice. In order to support the data science and machine learning community, ADaSci runs different programs. It primarily focuses on providing a platform for sharing knowledge and enhancing the skills of community members.&nbsp;</p><p>&nbsp;</p><p>ADaSci is looking for experienced data science professionals who can help them curate niche content around data science and machine learning and should have the capability of building and delivering training programs.&nbsp;</p><p>&nbsp;</p><p>Your day-to-day responsibilities will include the following:</p><ul><li>Curate technical content on data science and machine learning, including articles and other learning resources</li><li>Research trending innovations in this area and incorporate them into all the deliverables</li><li>Helping the team with creating learning and assessment resources</li><li>Designing and delivering training and workshops on niche and advanced topics in data science and machine learning</li></ul><p>&nbsp;</p><p><strong>Required Skills:</strong></p><ul><li style=\"margin-left:24pt;\">Sound understanding of various concepts, from basics to advanced, of data science and machine learning</li><li style=\"margin-left:24pt;\">Should be able to develop highly technical learning material and assessments</li><li style=\"margin-left:24pt;\">Good command of Python and its frameworks</li><li style=\"margin-left:24pt;\">Excellent communication and presentation skills</li><li style=\"margin-left:24pt;\">Candidates with previous experience in content development and training delivery in data science and machine learning will be preferred</li><li style=\"margin-left:24pt;\">Highly creative, self-motivated and must be able to learn new skills quickly</li></ul><p><strong>Required Experience:</strong></p><ul><li>2-4 years of experience in the course material and assessment development related to data science and machine learning.</li><li>1-2 years of experience in delivering training and workshops</li><li>Ph.D./M.Tech/M.E./B.E./B.Tech or relevant qualifications in AI/Machine Learning/Data Science</li></ul><p>&nbsp;</p><p>Do apply if you are passionate about AI &amp; data science and feel like creating content about these technological innovations. ADaSci is the world\u2019s largest data science professional community. Your content and knowledge will create everlasting content that can impact many in this field.</p><p>&nbsp;</p><p>ADaSci, in partnership with MachineHack, is organizing the Data Scientist hiring challenge. Go through this challenge and showcase your potential. Candidates qualified through this challenge will be called for the final interview.&nbsp;</p><p>&nbsp;</p><p><a href=\"https://machinehack.com/tournaments/adasci_data_scientist_hiring_challenge\">Link to hiring challenge</a></p><p><br>&nbsp;</p>",
         "tags": [
             "Data Science"
-        ]
+        ],
+        "id": "640954d08f20da4576994343"
     },
     {
         "title": "Data Scientist",
@@ -60,7 +63,8 @@
             "SQL",
             "Python",
             "Analytics"
-        ]
+        ],
+        "id": "6401a139a1caa8232b056e12"
     },
     {
         "title": "Power Bi Developer",
@@ -75,7 +79,8 @@
         "tags": [
             "Power BI",
             "SQL"
-        ]
+        ],
+        "id": "64019e26a1caa80b7e056be5"
     },
     {
         "title": "Data Analyst",
@@ -92,7 +97,8 @@
             "SQL",
             "Microsoft Power BI",
             "Excel"
-        ]
+        ],
+        "id": "63f8927d3d62afe9f8a2cec0"
     },
     {
         "title": "Business Intelligence (BI) Lead",
@@ -109,7 +115,8 @@
             "Microsoft Power BI",
             "DAX",
             "SQL"
-        ]
+        ],
+        "id": "63f4c08e569aec771e7dc5fa"
     },
     {
         "title": "Data Scientist",
@@ -125,7 +132,8 @@
             "ECL",
             "Credit Risk",
             "Development"
-        ]
+        ],
+        "id": "63f2fb0f5e76273ffea246a1"
     },
     {
         "title": "Data Engineer Lead (VP)",
@@ -141,7 +149,8 @@
             "Scala",
             "Python",
             "Hive"
-        ]
+        ],
+        "id": "63edd574333430a9a5c16664"
     },
     {
         "title": "Data science",
@@ -156,7 +165,8 @@
         "tags": [
             "Python",
             "ActiveX Data Objects (ADO)"
-        ]
+        ],
+        "id": "63ec8bf06f1eaf24bc74fb5e"
     },
     {
         "title": "Business Analyst",
@@ -170,7 +180,8 @@
             "Business Analytics",
             "Power BI",
             "Python"
-        ]
+        ],
+        "id": "63ec6a1c6f1eaf708574eeb9"
     },
     {
         "title": "Data Scientist",
@@ -188,7 +199,8 @@
             "Credit Risk",
             "ECL",
             "Validation"
-        ]
+        ],
+        "id": "63e6346c3b5cfc0adbefe0b7"
     },
     {
         "title": "Data Modeller",
@@ -203,7 +215,8 @@
         "tags": [
             "Dimensional Modeling",
             "Snowflake"
-        ]
+        ],
+        "id": "63e4c35f52be36d1172d8fa0"
     },
     {
         "title": "Data Scientist(IOT)",
@@ -218,7 +231,8 @@
         "tags": [
             "Python",
             "Machine Learning"
-        ]
+        ],
+        "id": "63e48081241ec23725c869be"
     },
     {
         "title": "Data Scientist_ Market mix",
@@ -233,7 +247,8 @@
         "tags": [
             "Market Modeling",
             "Data Science"
-        ]
+        ],
+        "id": "63e09c31241ec22ed3c5d76d"
     },
     {
         "title": "Power BI Developer",
@@ -249,7 +264,8 @@
             "Power BI",
             "DAX",
             "Microsoft SQL Server"
-        ]
+        ],
+        "id": "63dccbd7f3b949d71091ab4f"
     },
     {
         "title": "Business Analyst",
@@ -265,7 +281,8 @@
             "Business Analytics",
             "Data Analysis",
             "Microsoft SQL Server"
-        ]
+        ],
+        "id": "63db9de05f88de491fe23111"
     },
     {
         "title": "Talend ETL Developer",
@@ -282,7 +299,8 @@
             "ETL",
             "Talend Open Studio",
             "MySQL"
-        ]
+        ],
+        "id": "63db9d0ff3b949359c90df59"
     },
     {
         "title": "Data Analyst",
@@ -298,7 +316,8 @@
             "SQL",
             "Excel",
             "BI"
-        ]
+        ],
+        "id": "63db4bfef3b94974ab90c4f4"
     },
     {
         "title": "Sr Data Engineer",
@@ -317,7 +336,8 @@
             "ADB",
             "ETL",
             "Python"
-        ]
+        ],
+        "id": "63cfd4b88b4e1b3ab8b393a6"
     },
     {
         "title": "AWS Cloud Engineer",
@@ -332,7 +352,8 @@
         "tags": [
             "Python",
             "AWS"
-        ]
+        ],
+        "id": "63c63d5957b7940af71438fd"
     },
     {
         "title": "Data Analyst - Collection Analytics",
@@ -348,7 +369,8 @@
             "Pandas",
             "SQL",
             "Excel"
-        ]
+        ],
+        "id": "63bfcd3a6d12795d2cb9e7c0"
     },
     {
         "title": "Senior Consultant - MMM OR MMX",
@@ -364,7 +386,8 @@
             "MM modules",
             "Python",
             "SQL"
-        ]
+        ],
+        "id": "63bfcc490facc39dbbc1cca9"
     },
     {
         "title": "ML Engineer/Full stack",
@@ -380,7 +403,8 @@
         "description": "<p>Job Summary:<br>As a part of the data science team of Course5\u2019s Advanced analytics and Applied AI division, we are looking for a<br>Solutions leader who is diligent, detail-driven, and ambitious to provide the SME expertise, design solutions and best<br>practices to lead the projects for our partners across the globe for all AI implementations.<br>This position will require a strong background and working experience in developing scalable, sustainable and cloud<br>agnostic data marts/lakes to enable effective deployment of AI algorithms developed to solve custom problems in the<br>partner ecosystems for sandboxes as well as for the production deployments for continuous modeling, testing,<br>improvement and deployment.<br>This role expects you to be a self-starter and ability to handle ambiguity with respect to the expectations, objective,<br>data and would require discrete and constant attention to details. You will be leading and delivering the projects and<br>are expected to have experience in application agile project management principles. You should be organized and have<br>the ability to work on multiple projects, streams of work and stakeholders.<br>You'll also have the chance to shape the direction of our products and services. This is through gathering feedback<br>from customers whilst collaborating with our engineering and service teams.<br>Job Responsibilities:<br>\u25cf Gather and analyze information, design and code data process and build predictive analytical models,<br>formulate, and test hypotheses, contribute to the development and communication of recommendations<br>\u25cf Design, test and develop Machine Learning Models using Python and R, Design and Develop solutions to<br>integrate with existing GRC applications<br>\u25cf Operationalize/Implement pipeline for Machine Learning Models into Production environment</p><p>\u25cf Develop Interfaces to integrate AI Solutions into existing products<br>\u25cf Support and Maintain AI Solutions in Production environment<br>\u25cf Participate in continuous process improvement initiatives by working across technical teams to enhance the<br>systems, processes, and controls, e.g., methods, standards, capabilities<br>\u25cf Perform ad-hoc descriptive analysis based on business needs and provide key data insights<br>\u25cf Participates in organizational activities to meet or exceed company objectives<br>\u25cf Proactively pursues professional development activities (e.g., establishing personal networks)<br>\u25cf Manages time and company resources appropriately<br>\u25cf Performs other duties as requested by his/her supervisor<br>Requirements &amp; Qualifications:<br>\u25cf 6-10 years of experience having worked on developing / implementing and operationalizing data / analytics use<br>cases. If the person is able to curate the data, build the models, showcase output.<br>\u25cf Experience in HTML, CSS, JS, Bootstrap.<br>\u25cf Experience in working in any cloud environment. AWS, Azure or GC.<br>\u25cf Experience in any search engine technologies is an added advantage. Preferably Elastic Search or Solr<br>\u25cf Experience in Python and usage of data science packages and its application.<br>\u25cf Proficient in PowerShell, Shell Scripting &amp; knowledge of Micro Services, Container based architecture.<br>\u25cf Experience in CI/CD integration tools like Jenkins, Bitbucket or Git within the Java/JavaScript ecosystem.<br>\u25cf Have knowledge on Docker along with Clustering, Load Balancing, High Availability &amp; Disaster Recovery, etc.<br>\u25cf Expert in the management, manipulation, and analysis of very large datasets.<br>\u25cf Programming experience in building high quality applications, data pipelines and analytics solutions.<br>\u25cf Apply advanced analytical techniques and algorithms to improve current solutions as well as develop cutting<br>edge offerings/solutions.<br>\u25cf Strong CS fundamentals are a must. (Data structures, Algorithms, OS, Databases).<br>\u25cf Proven track record of working/leading in or with the data science team to understand their needs and translate<br>into technical solutions.<br>\u25cf Ability to thrive in a distributed technical environment while working on multiple projects simultaneously.<br>\u25cf Passionate about latest technology trends with a strong desire for innovation.<br>\u25cf Strong oral and written communication</p>",
         "tags": [
             "Python"
-        ]
+        ],
+        "id": "63beb123f75f07669ec1bc0d"
     },
     {
         "title": "Big Data Engineer",
@@ -396,7 +420,8 @@
         "description": "<p>Responsibility:<br>- Designing, building, and deploying a scalable cloud agnostic data ingestion architecture and<br>pipelines to process both Stream and Batch Data using open-source tools and technologies.<br>- You should be experienced in creating and deploying complete ETL pipeline for cloud, on<br>Prem and hybrid model from scratch.<br>- You are responsible for Ingesting data from a variety of data sources like<br>csv\u2019s/pdf\u2019s/docs/storage containers, streams, and databases, process it to get meaningful<br>insights.<br>- Writing clean, fully tested and well-documented code in Python 3.5+ with pandas, NumPy,<br>Dask, TensorFlow, scikit-learn, and Django<br>- Design, develop, test, deploy, support, enhance data integration solutions seamlessly to<br>connect and integrate enterprise systems in an Enterprise Data Platform<br>- Creating Rest API\u2019s development for sharing data<br>- Working directly with clients to identify pain points and opportunities in pre-existing data<br>pipelines and build or improve clients\u2019 analytics processes<br>- Advising clients on the usage of different distributed storage and computing technologies<br>from the plethora of options available in the ecosystem<br>What you should have<br>- 5 to 8 years of overall industry experience specifically in data engineering<br>- Out of which at least 2 years should be on implementing the ETL pipelines in Azure<br>environment<br>- Strong experience in building data pipelines and analysis tools using Python and PySpark<br>- Design and develop data ingestion programs to process large data sets in Batch mode using<br>python, Databricks, and Spark.</p><p>- Good understanding of underlying Azure Architectural concepts and distributed computing<br>paradigms<br>- Hands on experience of Azure Data bricks / spark, Spark streaming and its various core<br>components like GraphX, MLLib<br>- Hands on Experience in working on Microsoft Azure Services like ADLS, Event Hubs, scale<br>sets, Load Balancers, Azure Functions, Logic Apps, Azure Data Factory etc<br>- Stong experience in Apache Kafka streaming<br>- Experience working with SQL (mySQL/Postgres/SQL Server)<br>- Exposure to NoSQL (cassandra/Mongo/Cosmos DB) &amp; Graph databases (Neo4j)<br>- Experience on visualization tools like Grafana / Power BI<br>- Understanding of Linux commands, shell scripting &amp; monitoring Linux based production<br>machines<br>Qualification:<br>Bachelors or master\u2019s degree in computer science or equivalent</p>",
         "tags": [
             "Python"
-        ]
+        ],
+        "id": "63beaf189a2549b8b8bbc35d"
     },
     {
         "title": "VP Loss Forecasting Modelling, Banking",
@@ -414,7 +439,8 @@
             "EAD",
             "Python",
             "Spark"
-        ]
+        ],
+        "id": "63be919d544b00eced1e0663"
     },
     {
         "title": "VP Credit Risk Modelling - VP, Banking",
@@ -430,7 +456,8 @@
             "SAS",
             "SQL",
             "Scorecard"
-        ]
+        ],
+        "id": "63be8f8952df0c1c0ddce65a"
     },
     {
         "title": "VP-Data Science, Banking",
@@ -447,7 +474,8 @@
             "SAS",
             "SQL",
             "Big Data"
-        ]
+        ],
+        "id": "63be836cf54bb8fb0e6bd287"
     },
     {
         "title": "Business Analyst:- QMS",
@@ -465,7 +493,8 @@
             "SQL",
             "Microsoft Power BI",
             "Scrum"
-        ]
+        ],
+        "id": "63bbbc09446a0590d26cd9fc"
     },
     {
         "title": "Risk Modelling",
@@ -485,6 +514,7 @@
             "SAS",
             "SQL",
             "Regulatory"
-        ]
+        ],
+        "id": "63b7eefd446a05491c6a999d"
     }
 ]

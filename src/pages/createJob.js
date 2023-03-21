@@ -32,7 +32,7 @@ import imageToBase64 from 'image-to-base64/browser'
 import LocationLogo from '../components/LocationLogo';
 import SvgCompanyLogo from '../components/CompanyLogo';
 import SvgDollarSignSvgrepoCom from '../components/DollarLogo';
-import { SEO } from '../components/seo';
+import { Seo } from '../components/seo';
 import { Formik, Field } from 'formik'
 import NavBar from '../components/NavBar'
 
@@ -325,5 +325,5 @@ const CreateJob = () => {
 export default CreateJob
 
 export const Head = () => (
-  <SEO title={'Post Jobs for free'} />
+  <Seo title={'Post Jobs for free'} />
 )

@@ -13,7 +13,8 @@
             "Engineering",
             "HPC",
             "Machine Learning"
-        ]
+        ],
+        "id": "43114-consultant-for-ai-applications-fmx"
     },
     {
         "title": "AI Content Creator",
@@ -29,7 +30,8 @@
             "Marketmuse",
             "Research",
             "Wordtune"
-        ]
+        ],
+        "id": "42991-ai-content-creator"
     },
     {
         "title": "AI Writing Creator",
@@ -44,7 +46,8 @@
             "Prompt writing",
             "Research",
             "UX"
-        ]
+        ],
+        "id": "42990-ai-writing-creator"
     },
     {
         "title": "AI Application Developer",
@@ -59,7 +62,8 @@
             "ChatGPT",
             "GPT",
             "Research"
-        ]
+        ],
+        "id": "42989-ai-application-developer"
     },
     {
         "title": "AI Video Producer",
@@ -73,7 +77,8 @@
             "AI video",
             "Pictory",
             "Research"
-        ]
+        ],
+        "id": "42988-ai-video-producer"
     },
     {
         "title": "AI Artist",
@@ -88,7 +93,8 @@
             "DALL-E",
             "Midjourney",
             "Research"
-        ]
+        ],
+        "id": "42987-ai-artist"
     },
     {
         "title": "Machine Learning Scientist",
@@ -104,7 +110,8 @@
             "Data Mining",
             "Engineering",
             "Machine Learning"
-        ]
+        ],
+        "id": "42235-machine-learning-scientist"
     },
     {
         "title": "MLOps Engineer",
@@ -120,7 +127,8 @@
             "CI/CD",
             "Computer Science",
             "Computer Vision"
-        ]
+        ],
+        "id": "44496-mlops-engineer"
     },
     {
         "title": "AI Developer",
@@ -136,7 +144,8 @@
             "Computer Vision",
             "Deep Learning",
             "Keras"
-        ]
+        ],
+        "id": "44495-ai-developer"
     },
     {
         "title": "Machine Learning Engineer",
@@ -152,7 +161,8 @@
             "Blockchain",
             "Crypto",
             "Deep Learning"
-        ]
+        ],
+        "id": "43614-machine-learning-engineer"
     },
     {
         "title": "Lead Machine Learning Engineer",
@@ -168,7 +178,8 @@
             "Data visualization",
             "Deep Learning",
             "E-commerce"
-        ]
+        ],
+        "id": "41775-lead-machine-learning-engineer"
     },
     {
         "title": "Senior Research Engineer, LLMs / Privacy",
@@ -184,7 +195,8 @@
             "GitHub",
             "GPU",
             "HPC"
-        ]
+        ],
+        "id": "41469-senior-research-engineer-llms-privacy"
     },
     {
         "title": "University Professor of Artificial Intelligence in Protein Science",
@@ -200,7 +212,8 @@
             "Chemistry",
             "Machine Learning",
             "Research"
-        ]
+        ],
+        "id": "41075-university-professor-of-artificial-intelligence-in-protein-science"
     },
     {
         "title": "Quantitative Researcher - Machine Learning / AI",
@@ -216,7 +229,8 @@
             "Economics",
             "Engineering",
             "Finance"
-        ]
+        ],
+        "id": "40454-quantitative-researcher-machine-learning-ai"
     },
     {
         "title": "Senior Data Engineer",
@@ -232,7 +246,8 @@
             "Big Data",
             "Computer Science",
             "Data pipelines"
-        ]
+        ],
+        "id": "44732-senior-data-engineer"
     },
     {
         "title": "Sr. Consultant level - Data Engineering",
@@ -248,7 +263,8 @@
             "Architecture",
             "Big Data",
             "Engineering"
-        ]
+        ],
+        "id": "44759-sr-consultant-level-data-engineering"
     },
     {
         "title": "Machine Learning Scientist: Co-design",
@@ -264,7 +280,8 @@
             "CUDA",
             "Deep Learning",
             "HPC"
-        ]
+        ],
+        "id": "44756-machine-learning-scientist-co-design"
     },
     {
         "title": "Senior Data Engineer (Contract) - Advanced Analytics",
@@ -280,7 +297,8 @@
             "Azure",
             "Consulting",
             "Data Warehousing"
-        ]
+        ],
+        "id": "44727-senior-data-engineer-contract-advanced-analytics"
     },
     {
         "title": "Consultant(e) Senior Data Science - Bureau de Marseille",
@@ -296,7 +314,8 @@
             "Consulting",
             "Consulting firm",
             "Data management"
-        ]
+        ],
+        "id": "44635-consultante-senior-data-science-bureau-de-marseille"
     },
     {
         "title": "Manager Data Management",
@@ -312,7 +331,8 @@
             "AWS",
             "Azure",
             "Big Data"
-        ]
+        ],
+        "id": "44711-manager-data-management"
     },
     {
         "title": "Machine Learning Engineer/Scientist",
@@ -328,7 +348,8 @@
             "Pandas",
             "Python",
             "PyTorch"
-        ]
+        ],
+        "id": "44748-machine-learning-engineerscientist"
     },
     {
         "title": "Senior Software Engineer - Autonomy Research",
@@ -344,7 +365,8 @@
             "Machine Learning",
             "Prototyping",
             "Python"
-        ]
+        ],
+        "id": "44721-senior-software-engineer-autonomy-research"
     },
     {
         "title": "Manager, Data Science - Streamlit",
@@ -360,7 +382,8 @@
             "Engineering",
             "Excel",
             "Machine Learning"
-        ]
+        ],
+        "id": "44700-manager-data-science-streamlit"
     },
     {
         "title": "Senior Full Stack Software Engineer II, Machine Learning Infrastructure",
@@ -376,7 +399,8 @@
             "Architecture",
             "AWS",
             "Azure"
-        ]
+        ],
+        "id": "44752-senior-full-stack-software-engineer-ii-machine-learning-infrastructure"
     },
     {
         "title": "Head of Data Governance and Data Management",
@@ -392,7 +416,8 @@
             "Data governance",
             "Data management",
             "Data quality"
-        ]
+        ],
+        "id": "44687-head-of-data-governance-and-data-management"
     },
     {
         "title": "Machine Learning Ops Specialist",
@@ -408,7 +433,8 @@
             "Azure",
             "Big Data",
             "CI/CD"
-        ]
+        ],
+        "id": "44749-machine-learning-ops-specialist"
     },
     {
         "title": "Senior Software Engineer, Machine Learning Data Acceleration",
@@ -424,7 +450,8 @@
             "Computer Science",
             "Engineering",
             "GCP"
-        ]
+        ],
+        "id": "44751-senior-software-engineer-machine-learning-data-acceleration"
     },
     {
         "title": "AI Engineer \u2013 XDefiant",
@@ -437,7 +464,8 @@
         "tags": [
             "C++",
             "Testing"
-        ]
+        ],
+        "id": "44690-ai-engineer-xdefiant"
     },
     {
         "title": "Senior Data Engineer",
@@ -453,7 +481,8 @@
             "Consulting firm",
             "Data management",
             "ETL"
-        ]
+        ],
+        "id": "44728-senior-data-engineer"
     },
     {
         "title": "Data Manager",
@@ -469,7 +498,8 @@
             "Data analysis",
             "Data management",
             "Engineering"
-        ]
+        ],
+        "id": "44714-data-manager"
     },
     {
         "title": "Master Data Management Product Analyst",
@@ -485,7 +515,8 @@
             "Data quality",
             "Oracle",
             "Research"
-        ]
+        ],
+        "id": "44631-master-data-management-product-analyst"
     },
     {
         "title": "Director of Data Science",
@@ -501,7 +532,8 @@
             "Computer Science",
             "Data strategy",
             "Economics"
-        ]
+        ],
+        "id": "44693-director-of-data-science"
     },
     {
         "title": "Azure Data Engineer",
@@ -517,7 +549,8 @@
             "Databricks",
             "Data warehouse",
             "DevOps"
-        ]
+        ],
+        "id": "44621-azure-data-engineer"
     },
     {
         "title": "Director, Data Science",
@@ -533,7 +566,8 @@
             "Computer Science",
             "Consulting",
             "Data analysis"
-        ]
+        ],
+        "id": "44695-director-data-science"
     },
     {
         "title": "Senior Data Engineer",
@@ -549,7 +583,8 @@
             "Architecture",
             "AWS",
             "Data analysis"
-        ]
+        ],
+        "id": "44735-senior-data-engineer"
     },
     {
         "title": "Senior Risk and Data Analyst",
@@ -563,7 +598,8 @@
             "Agile",
             "Excel",
             "Finance"
-        ]
+        ],
+        "id": "44652-senior-risk-and-data-analyst"
     },
     {
         "title": "Data Engineering Manager",
@@ -579,7 +615,8 @@
             "Big Data",
             "CI/CD",
             "Data analysis"
-        ]
+        ],
+        "id": "44741-data-engineering-manager"
     },
     {
         "title": "Consultant(e) Senior Data Science",
@@ -595,7 +632,8 @@
             "CI/CD",
             "Consulting",
             "GCP"
-        ]
+        ],
+        "id": "44636-consultante-senior-data-science"
     },
     {
         "title": "Data Analyst",
@@ -611,7 +649,8 @@
             "Economics",
             "ETL",
             "Excel"
-        ]
+        ],
+        "id": "44678-data-analyst"
     },
     {
         "title": "Junior Data Analyst",
@@ -627,7 +666,8 @@
             "Crypto",
             "Databricks",
             "Data Mining"
-        ]
+        ],
+        "id": "44677-junior-data-analyst"
     },
     {
         "title": "Abschlussarbeit im Bereich Data Engineering (w/m/div.) - anteilig remote",
@@ -643,7 +683,8 @@
             "Engineering",
             "Julia",
             "Machine Learning"
-        ]
+        ],
+        "id": "44624-abschlussarbeit-im-bereich-data-engineering-wmdiv-anteilig-remote"
     },
     {
         "title": "Fraud Intelligence Data Analyst",
@@ -659,7 +700,8 @@
             "Databricks",
             "Data visualization",
             "E-commerce"
-        ]
+        ],
+        "id": "44668-fraud-intelligence-data-analyst"
     },
     {
         "title": "Senior Associate Data Analytics",
@@ -675,7 +717,8 @@
             "Business Intelligence",
             "Consulting",
             "Data Analytics"
-        ]
+        ],
+        "id": "44673-senior-associate-data-analytics"
     },
     {
         "title": "Lead Data Engineer (m/f/d)",
@@ -691,7 +734,8 @@
             "Data pipelines",
             "Data quality",
             "Data warehouse"
-        ]
+        ],
+        "id": "44729-lead-data-engineer-mfd"
     },
     {
         "title": "Director of Data Engineering (Remote)",
@@ -707,7 +751,8 @@
             "Azure",
             "Big Data",
             "CI/CD"
-        ]
+        ],
+        "id": "44726-director-of-data-engineering-remote"
     },
     {
         "title": "Senior Data Scientist - Marketplace",
@@ -723,7 +768,8 @@
             "Data pipelines",
             "Data quality",
             "Engineering"
-        ]
+        ],
+        "id": "44698-senior-data-scientist-marketplace"
     },
     {
         "title": "BI Analyst",
@@ -737,7 +783,8 @@
             "Excel",
             "FinTech",
             "SQL"
-        ]
+        ],
+        "id": "44719-bi-analyst"
     },
     {
         "title": "Senior Machine Learning Engineer - Content Safety Analysis",
@@ -753,7 +800,8 @@
             "AWS",
             "Data analysis",
             "Deep Learning"
-        ]
+        ],
+        "id": "44754-senior-machine-learning-engineer-content-safety-analysis"
     },
     {
         "title": "Senior Product Manager, Data Infrastructure and ML",
@@ -769,7 +817,8 @@
             "Crypto",
             "Data pipelines",
             "Engineering"
-        ]
+        ],
+        "id": "44745-senior-product-manager-data-infrastructure-and-ml"
     },
     {
         "title": "Data Engineer",
@@ -785,7 +834,8 @@
             "Azure",
             "Big Data",
             "Blockchain"
-        ]
+        ],
+        "id": "44730-data-engineer"
     },
     {
         "title": "Head of Data & Analytics - MENA",
@@ -798,7 +848,8 @@
         "tags": [
             "Engineering",
             "Nonprofit"
-        ]
+        ],
+        "id": "44686-head-of-data-analytics-mena"
     },
     {
         "title": "Director of Data Analytics, Finance",
@@ -814,7 +865,8 @@
             "BigQuery",
             "Data Analytics",
             "Engineering"
-        ]
+        ],
+        "id": "44676-director-of-data-analytics-finance"
     },
     {
         "title": "Data Analyst",
@@ -830,7 +882,8 @@
             "Big Data",
             "Business Intelligence",
             "Classification"
-        ]
+        ],
+        "id": "44651-data-analyst"
     },
     {
         "title": "Consultant(e) Data Science",
@@ -846,7 +899,8 @@
             "Linux",
             "Machine Learning",
             "Matlab"
-        ]
+        ],
+        "id": "44641-consultante-data-science"
     },
     {
         "title": "Sr. Data Engineer, Peacock",
@@ -862,7 +916,8 @@
             "Big Data",
             "BigQuery",
             "CI/CD"
-        ]
+        ],
+        "id": "44568-sr-data-engineer-peacock"
     },
     {
         "title": "Staff Data Scientist",
@@ -878,7 +933,8 @@
             "Classification",
             "Computer Science",
             "Deep Learning"
-        ]
+        ],
+        "id": "44609-staff-data-scientist"
     },
     {
         "title": "Marketing Data Analyst/Scientist",
@@ -894,7 +950,8 @@
             "Computer Science",
             "Consulting",
             "Data analysis"
-        ]
+        ],
+        "id": "44553-marketing-data-analystscientist"
     },
     {
         "title": "Senior Vision Engineer",
@@ -910,7 +967,8 @@
             "Deep Learning",
             "Engineering",
             "Industrial"
-        ]
+        ],
+        "id": "44592-senior-vision-engineer"
     },
     {
         "title": "Sr Data Engineer (SSIS) -  Healthcare",
@@ -926,7 +984,8 @@
             "Data Analytics",
             "Data pipelines",
             "Data warehouse"
-        ]
+        ],
+        "id": "44567-sr-data-engineer-ssis-healthcare"
     },
     {
         "title": "Data Analyst",
@@ -942,7 +1001,8 @@
             "Data analysis",
             "Data pipelines",
             "Data visualization"
-        ]
+        ],
+        "id": "44557-data-analyst"
     },
     {
         "title": "Financial Data Analyst (m/f/d)",
@@ -958,7 +1018,8 @@
             "Finance",
             "Power BI",
             "Statistics"
-        ]
+        ],
+        "id": "44648-financial-data-analyst-mfd"
     },
     {
         "title": "Data Analyst",
@@ -974,7 +1035,8 @@
             "Computer Science",
             "Data analysis",
             "Data visualization"
-        ]
+        ],
+        "id": "44554-data-analyst"
     },
     {
         "title": "Software Engineer, Machine Learning",
@@ -990,7 +1052,8 @@
             "Machine Learning",
             "ML models",
             "MLOps"
-        ]
+        ],
+        "id": "44603-software-engineer-machine-learning"
     },
     {
         "title": "Business Data Analyst",
@@ -1006,7 +1069,8 @@
             "Blockchain",
             "Data analysis",
             "ETL"
-        ]
+        ],
+        "id": "44551-business-data-analyst"
     },
     {
         "title": "Data Engineer II",
@@ -1022,7 +1086,8 @@
             "Computer Science",
             "Data management",
             "Data pipelines"
-        ]
+        ],
+        "id": "44569-data-engineer-ii"
     },
     {
         "title": "Senior Executive - Media - Spark Foundry",
@@ -1034,7 +1099,8 @@
         "description": "\n<h3>Company Description</h3><p>Spark Foundry is one of four\u00a0global media agency brands within Publicis Media. The force of acceleration, or the speed of change is so strong today that it has the potential to leave industries including our own behind. So, at Spark Foundry we are working towards driving positive change. For ourselves, our clients and society in general! We are an Acceleration Agency.</p><p>At Spark Foundry acceleration applies to every layer of our business. It refers to how we relish change, seek ever more innovative partners, embrace the increasing unknowns and continually learn, unlearn and learn everything again \u2013 all over again. We will continually live and work as if we are in beta (nerdy way for saying nothing is ever completed), in order to boost brand relevance for clients, drive brand value and grow their business and ours \u2013 today and in to the future. Our pursuit of what\u2019s next will be relentless.</p><h3>Job Description</h3><p>The key responsibilities within this role will be to manage the day-to-day activity for the client and team subordinates. You should have the ability to work successfully with teams, handling multiple projects and meeting tight deadlines under pressure.</p><p>Other responsibilities will include:</p><ul><li>Complete knowledge of buying and planning, and reporting process.</li><li>Understanding of brand and marketing.</li><li>Strong up to date understanding of: search, social media, mobile marketing, tracking and tagging, behavioral marketing, retargeting &amp; addressability.</li><li>Utilize available digital media planning tools to develop digital media plans.</li><li>Experience of, and passion for, new and emerging website technologies, particularly those used new environments.</li><li>Experience of monitoring, reporting, and analysing metrics data.</li><li>Delivering high-quality media planning for clients, serving up a smart, thoughtful understanding of how digital marketing can achieve (and exceed) objectives and goals \u2013 you\u2019ll lend this expertise to new business pitches, too.</li><li>Performing thorough, insightful campaign analysis, including reporting and optimization recommendations.</li><li>Promoting a culture of shared learning and increasing visibility of media expertise within the agency.</li><li>Overseeing budgeting process and performance evaluations to optimize resources and talent development.</li></ul><p>\u00a0</p><h3>Qualifications</h3><p>We are looking for someone who can come in and immediately make an impact. This person should exude confidence and display a desire to learn. Whilst the successful candidate will be well supported, we would be ideally looking for someone who can \u2018hit the ground running\u2019.</p><p>Ideally, we are looking for someone who has:</p><ul><li>BS/MS degree in marketing or a related field</li><li>A four-year college education and 5 to 7 years of media planning and/or buying experience (with at least three years of online experience</li></ul><p>And we are looking for someone who shows:</p><ul><li>An impressive understanding of the digital environment \u2013 you know this world by heart and you keep pulse with the rapid changes happening within it \u2013 and a clear understanding of the media planning and buying process</li><li>Exceptional communication skills \u2013 you\u2019re skilled at interpreting client objectives and clearly articulating proposed media strategies and recommendations</li><li>A strong, proven ability to teach analytic skills to staff, developing, encouraging and inspiring them to grow</li><li>Willingness to travel as needed \u2013 you\u2019re open to new places, new faces and new ideas</li><li>Demonstrable experience in SEO/SEM, marketing database, email, social media and/or display advertising campaigns</li><li>Creative with experience in identifying target audiences and devising digital campaigns that engage, inform and motivate</li><li>Experience in optimizing landing pages and user funnels</li><li>Knowledge of website analytics tools (e.g., Google Analytics, etc.)</li><li>Luxury experience is essential</li></ul>\n",
         "tags": [
             "Spark"
-        ]
+        ],
+        "id": "44619-senior-executive-media-spark-foundry"
     },
     {
         "title": "Data Analyst (Delivery Experience Technology & Product)",
@@ -1050,7 +1116,8 @@
             "Data Studio",
             "GCP",
             "Hadoop"
-        ]
+        ],
+        "id": "44645-data-analyst-delivery-experience-technology-product"
     },
     {
         "title": "Associate Manager Risk and Data Analyst",
@@ -1064,7 +1131,8 @@
             "Agile",
             "Excel",
             "Finance"
-        ]
+        ],
+        "id": "44653-associate-manager-risk-and-data-analyst"
     },
     {
         "title": "Consultant(e) Senior Data Science - Bureau de Nantes",
@@ -1080,7 +1148,8 @@
             "Consulting firm",
             "Linux",
             "Machine Learning"
-        ]
+        ],
+        "id": "44634-consultante-senior-data-science-bureau-de-nantes"
     },
     {
         "title": "Director of Machine Learning",
@@ -1096,7 +1165,8 @@
             "CI/CD",
             "Deep Learning",
             "Engineering"
-        ]
+        ],
+        "id": "44601-director-of-machine-learning"
     },
     {
         "title": "Data Analyst (Contractor)",
@@ -1109,7 +1179,8 @@
         "tags": [
             "Finance",
             "Security"
-        ]
+        ],
+        "id": "44552-data-analyst-contractor"
     },
     {
         "title": "Senior AWS Data Engineer",
@@ -1125,7 +1196,8 @@
             "Athena",
             "AWS",
             "Business Intelligence"
-        ]
+        ],
+        "id": "44571-senior-aws-data-engineer"
     },
     {
         "title": "Data Analyst",
@@ -1141,7 +1213,8 @@
             "Excel",
             "Jira",
             "SQL"
-        ]
+        ],
+        "id": "44560-data-analyst"
     },
     {
         "title": "Manager Data Science",
@@ -1157,7 +1230,8 @@
             "Deep Learning",
             "Genetics",
             "Machine Learning"
-        ]
+        ],
+        "id": "44537-manager-data-science"
     },
     {
         "title": "Senior Manager, Machine Learning Engineering (Coupang Play)",
@@ -1173,7 +1247,8 @@
             "E-commerce",
             "Engineering",
             "Machine Learning"
-        ]
+        ],
+        "id": "44604-senior-manager-machine-learning-engineering-coupang-play"
     },
     {
         "title": "Junior ESG Research Analyst \u2013 Mandarin",
@@ -1186,7 +1261,8 @@
         "tags": [
             "Machine Learning",
             "Research"
-        ]
+        ],
+        "id": "44594-junior-esg-research-analyst-mandarin"
     },
     {
         "title": "Data Analytics Consultant",
@@ -1202,7 +1278,8 @@
             "Excel",
             "Power BI",
             "Privacy"
-        ]
+        ],
+        "id": "44649-data-analytics-consultant"
     },
     {
         "title": "Senior Vision Engineer (English version)",
@@ -1218,7 +1295,8 @@
             "Deep Learning",
             "Engineering",
             "Industrial"
-        ]
+        ],
+        "id": "44593-senior-vision-engineer-english-version"
     },
     {
         "title": "Senior Marketing Data Analyst",
@@ -1234,7 +1312,8 @@
             "Data Analytics",
             "Excel",
             "Looker"
-        ]
+        ],
+        "id": "44555-senior-marketing-data-analyst"
     },
     {
         "title": "(Senior) Digital Analytics Engineer",
@@ -1250,7 +1329,8 @@
             "APIs",
             "Computer Science",
             "Engineering"
-        ]
+        ],
+        "id": "44608-senior-digital-analytics-engineer"
     },
     {
         "title": "Data Management Intern (12 months Internship)",
@@ -1265,7 +1345,8 @@
             "Data management",
             "Excel",
             "Research"
-        ]
+        ],
+        "id": "44620-data-management-intern-12-months-internship"
     },
     {
         "title": "Product Manager - Microservices (Big Data & AI)",
@@ -1281,7 +1362,8 @@
             "Big Data",
             "Engineering",
             "Machine Learning"
-        ]
+        ],
+        "id": "44662-product-manager-microservices-big-data-ai"
     },
     {
         "title": "Consultant(e) Data Scientist / Recherche Op\u00e9rationnelle",
@@ -1297,7 +1379,8 @@
             "Julia",
             "Linux",
             "Machine Learning"
-        ]
+        ],
+        "id": "44637-consultante-data-scientist-recherche-operationnelle"
     },
     {
         "title": "Principal Data Architect",
@@ -1313,7 +1396,8 @@
             "AWS",
             "Big Data",
             "CI/CD"
-        ]
+        ],
+        "id": "44531-principal-data-architect"
     },
     {
         "title": "Senior Data Engineer (CMG Sales Strategy & Ops)",
@@ -1329,7 +1413,8 @@
             "Excel",
             "GCP",
             "Kafka"
-        ]
+        ],
+        "id": "44577-senior-data-engineer-cmg-sales-strategy-ops"
     },
     {
         "title": "Consultant(e) Data Engineer",
@@ -1345,7 +1430,8 @@
             "AWS",
             "Azure",
             "Big Data"
-        ]
+        ],
+        "id": "44627-consultante-data-engineer"
     },
     {
         "title": "Data Quality Analyst",
@@ -1361,7 +1447,8 @@
             "Data management",
             "Data quality",
             "Excel"
-        ]
+        ],
+        "id": "44589-data-quality-analyst"
     },
     {
         "title": "Director - Product Data Analysis",
@@ -1377,7 +1464,8 @@
             "Azure",
             "Big Data",
             "BigQuery"
-        ]
+        ],
+        "id": "44654-director-product-data-analysis"
     },
     {
         "title": "Expert in AI/NLP/ML",
@@ -1393,7 +1481,8 @@
             "Azure",
             "Cassandra",
             "D3"
-        ]
+        ],
+        "id": "44550-expert-in-ainlpml"
     },
     {
         "title": "Financial Data Analyst",
@@ -1409,7 +1498,8 @@
             "Data pipelines",
             "Data visualization",
             "Economics"
-        ]
+        ],
+        "id": "44558-financial-data-analyst"
     },
     {
         "title": "Software Engineer - Java / Elasticsearch / ML / Data Science",
@@ -1425,7 +1515,8 @@
             "Elasticsearch",
             "Engineering",
             "Git"
-        ]
+        ],
+        "id": "44545-software-engineer-java-elasticsearch-ml-data-science"
     },
     {
         "title": "Intern, ML Ops",
@@ -1441,7 +1532,8 @@
             "Computer Science",
             "Docker",
             "GCP"
-        ]
+        ],
+        "id": "44587-intern-ml-ops"
     },
     {
         "title": "Website & Data analyses - Internship EU student",
@@ -1455,7 +1547,8 @@
             "E-commerce",
             "Research",
             "Testing"
-        ]
+        ],
+        "id": "44646-website-data-analyses-internship-eu-student"
     },
     {
         "title": "Research Engineer II",
@@ -1471,7 +1564,8 @@
             "Data visualization",
             "Engineering",
             "Excel"
-        ]
+        ],
+        "id": "44582-research-engineer-ii"
     },
     {
         "title": "Lead Data Analyst, Risk/Fraud",
@@ -1487,7 +1581,8 @@
             "Business Intelligence",
             "Engineering",
             "Finance"
-        ]
+        ],
+        "id": "44564-lead-data-analyst-riskfraud"
     },
     {
         "title": "Confirmed Data Analyst - Data Pro Supply",
@@ -1503,7 +1598,8 @@
             "SQL",
             "Statistics",
             "Tableau"
-        ]
+        ],
+        "id": "44559-confirmed-data-analyst-data-pro-supply"
     },
     {
         "title": "Sales Operations Specialist - Data quality management",
@@ -1518,7 +1614,8 @@
             "Excel",
             "Finance",
             "Research"
-        ]
+        ],
+        "id": "44614-sales-operations-specialist-data-quality-management"
     },
     {
         "title": "Data Engineer",
@@ -1534,7 +1631,8 @@
             "AWS",
             "Azure",
             "Consulting"
-        ]
+        ],
+        "id": "44579-data-engineer"
     },
     {
         "title": "Pre-College Instructor, Big Data, Machine Learning & Their Real World Applications (Online) Summer 2023",
@@ -1548,7 +1646,8 @@
             "Big Data",
             "Machine Learning",
             "Teaching"
-        ]
+        ],
+        "id": "44584-pre-college-instructor-big-data-machine-learning-their-real-world-applications-online-summer-2023"
     },
     {
         "title": "Applied Computer Vision Engineer- Automated Driving",
@@ -1564,6 +1663,7 @@
             "AWS",
             "Azure",
             "Computer Science"
-        ]
+        ],
+        "id": "44630-applied-computer-vision-engineer-automated-driving"
     }
 ]
