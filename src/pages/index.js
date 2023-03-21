@@ -80,7 +80,7 @@ const IndexPage = () => {
                   <h3>
                     <AccordionButton p='-4'>
                       {/* Stack of 2 elements: Image and Box */}
-                      <Stack bg={'white'} direction={['column', 'row']} w={['sm', null, '3xl']} spacing={'-4'} borderRadius='md' shadow={'base'} >
+                      <Stack bg={'white'} direction={['column', 'row']} w={['xs', 'sm', 'lg', '3xl']} spacing={'-4'} borderRadius='md' shadow={'base'} >
                         {job.company_logo ? (<Image
                           borderRadius='full'
                           // boxSize='10'
