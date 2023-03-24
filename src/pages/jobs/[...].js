@@ -36,11 +36,13 @@ const JobPage = (props) => {
 		})
 	}, [id])
 	return (
-		<Wrap justify='center' bgColor={'gray.100'}>
-			<Box m='6' borderRadius={'3xl'} w={['xs', 'sm', 'md', 'lg', '3xl']} bgColor={'white'}>
+		<Wrap justify='center' p='8' bgColor={'gray.100'}>
+			<Box boxShadow={'base'} borderRadius={'xl'} w={['xs', 'sm', 'md', 'lg', '3xl']} bgColor={'white'}>
 				<Stack direction={'column'} spacing='2' p='4' bgColor='white' m='4'>
 					<Heading as={'h1'} size='2xl'>{job?.title}</Heading>
-					<Stack direction={'row'}><LocationLogo /><Text variant={'solid'}>{job?.location}</Text></Stack>
+					<Stack direction={'row'}>
+						<LocationLogo />
+						<Text p={'-1'}>{job?.location}</Text></Stack>
 					<Stack direction={'row'}><SvgDollarSignSvgrepoCom /><Text variant={'solid'}>{job?.salary_start} - {job?.salary_end}K</Text></Stack>
 					<Box>
 						<Tag m={['1']} variant={'solid'}>{job?.type}</Tag>
@@ -50,13 +52,18 @@ const JobPage = (props) => {
 					</Box>
 					<LinkBox>
 						<LinkOverlay href={job?.apply_link} isExternal>
-							<Button w={['2xs', 'xs', 'sm']} colorScheme={'blue'}>Apply on the Job</Button>
+							<Button  ml={[null, null, null, null, '40']} w={['2xs', 'xs', 'sm']} colorScheme={'blue'}>Apply on the Job</Button>
 						</LinkOverlay>
 					</LinkBox>
 				</Stack>
 				<Stack direction={'column'} spacing='2' p={['2', '4']} bgColor='white' m='4'>
 					<Text fontWeight={'bold'}>Description:</Text>
 					<Box p={['4', '8']}>{job.description && parse(job.description)}</Box>
+					<LinkBox>
+						<LinkOverlay href={job?.apply_link} isExternal>
+							<Button w={['2xs', 'xs', 'sm', 'sm', '2xl']} colorScheme={'blue'}>Apply on the Job</Button>
+						</LinkOverlay>
+					</LinkBox>
 				</Stack>
 			</Box>
 		</Wrap>

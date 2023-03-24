@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import SvgLoader from "../components/loader"
 
 const pageStyles = {
   color: "#232129",
@@ -26,9 +27,11 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
+      {/* <h1 style={headingStyles}>Finding Requested page</h1> */}
       <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
+        {/* 🔍 Looking for the page. */}
+        <SvgLoader />
+        
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>

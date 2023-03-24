@@ -82,7 +82,7 @@ const IndexPage = () => {
                     <Box w='inherit' p={['3', '4', '5']}>
 
                       {/* Title and type tag */}
-                      <LinkOverlay href={`/jobs/${job.id}`} isExternal>
+                      <LinkOverlay href={`/jobs/${job.id}`}>
                         <Flex>
                           <Text fontSize={['lg', 'xl']}>{job.title}</Text>
                           <Spacer />
@@ -112,7 +112,20 @@ const IndexPage = () => {
             <Box boxShadow={'outline'} bgColor='white'>{currentPageCount}</Box>
             {currentPageCount < numberOfPages ? <Button colorScheme={'blue'} onClick={incrementPageByOne}>Next Page →</Button> : null}
           </Stack>
+
+          <LinkBox>
+            <LinkOverlay href='https://github.com/amit0617'>
+              <Text color='blue' pb='6' decoration={'underline'}>Made with ❤️ by AMIT</Text>
+            </LinkOverlay>
+          </LinkBox>
         </VStack>
+
+        {/* hey copilot give me red heart emoji
+ heart in svg
+ 
+
+*/}
+
       </Wrap>
 
     </main >
