@@ -14,7 +14,8 @@
             "Marketmuse",
             "Research",
             "Wordtune"
-        ]
+        ],
+        "id": "44978-freelance-ai-content-creator"
     },
     {
         "title": "Freelance AI Video Producer Creator",
@@ -29,7 +30,8 @@
             "AI video",
             "Pictory",
             "Research"
-        ]
+        ],
+        "id": "44977-freelance-ai-video-producer-creator"
     },
     {
         "title": "AI Application Developer",
@@ -45,7 +47,8 @@
             "ChatGPT",
             "GPT",
             "Research"
-        ]
+        ],
+        "id": "44976-ai-application-developer"
     },
     {
         "title": "Freelance AI Artist Creator",
@@ -62,7 +65,8 @@
             "Midjourney",
             "Research",
             "Stable Diffusion"
-        ]
+        ],
+        "id": "44975-freelance-ai-artist-creator"
     },
     {
         "title": "AI Writing Creator",
@@ -78,7 +82,8 @@
             "Prompt writing",
             "Research",
             "UX"
-        ]
+        ],
+        "id": "44974-ai-writing-creator"
     },
     {
         "title": "Consultant for AI applications (f/m/x)",
@@ -95,7 +100,8 @@
             "Engineering",
             "HPC",
             "Machine Learning"
-        ]
+        ],
+        "id": "43114-consultant-for-ai-applications-fmx"
     },
     {
         "title": "MLOps Engineer",
@@ -112,7 +118,8 @@
             "CI/CD",
             "Computer Science",
             "Computer Vision"
-        ]
+        ],
+        "id": "44496-mlops-engineer"
     },
     {
         "title": "AI Developer",
@@ -129,7 +136,8 @@
             "Computer Vision",
             "Deep Learning",
             "Keras"
-        ]
+        ],
+        "id": "44495-ai-developer"
     },
     {
         "title": "Machine Learning Engineer",
@@ -146,7 +154,8 @@
             "Blockchain",
             "Crypto",
             "Deep Learning"
-        ]
+        ],
+        "id": "43614-machine-learning-engineer"
     },
     {
         "title": "Lead Machine Learning Engineer",
@@ -163,7 +172,8 @@
             "Data visualization",
             "Deep Learning",
             "E-commerce"
-        ]
+        ],
+        "id": "41775-lead-machine-learning-engineer"
     },
     {
         "title": "Senior Research Engineer, LLMs / Privacy",
@@ -180,7 +190,8 @@
             "GitHub",
             "GPU",
             "HPC"
-        ]
+        ],
+        "id": "41469-senior-research-engineer-llms-privacy"
     },
     {
         "title": "University Professor of Artificial Intelligence in Protein Science",
@@ -197,7 +208,8 @@
             "Chemistry",
             "Machine Learning",
             "Research"
-        ]
+        ],
+        "id": "41075-university-professor-of-artificial-intelligence-in-protein-science"
     },
     {
         "title": "Data Quality and Requirements Analyst (TS/SCI)",
@@ -214,7 +226,8 @@
             "Data management",
             "Data quality",
             "Data strategy"
-        ]
+        ],
+        "id": "45595-data-quality-and-requirements-analyst-tssci"
     },
     {
         "title": "Applied AI Engineer",
@@ -231,7 +244,8 @@
             "Classification",
             "E-commerce",
             "Engineering"
-        ]
+        ],
+        "id": "45576-applied-ai-engineer"
     },
     {
         "title": "Senior Data Engineer",
@@ -248,7 +262,8 @@
             "Azure",
             "Computer Science",
             "Data warehouse"
-        ]
+        ],
+        "id": "45539-senior-data-engineer"
     },
     {
         "title": "Elasticsearch + AWS Consultant",
@@ -265,7 +280,8 @@
             "DevOps",
             "Docker",
             "Elasticsearch"
-        ]
+        ],
+        "id": "45530-elasticsearch-aws-consultant"
     },
     {
         "title": "Senior Computer Vision Researcher",
@@ -282,7 +298,8 @@
             "Classification",
             "Computer Vision",
             "Deep Learning"
-        ]
+        ],
+        "id": "45581-senior-computer-vision-researcher"
     },
     {
         "title": "Data Analyst - Accounting SQL",
@@ -299,7 +316,8 @@
             "Data Studio",
             "Data visualization",
             "Excel"
-        ]
+        ],
+        "id": "45550-data-analyst-accounting-sql"
     },
     {
         "title": "Associate Data Scientist",
@@ -316,7 +334,8 @@
             "Data Analytics",
             "Data Mining",
             "Data visualization"
-        ]
+        ],
+        "id": "45544-associate-data-scientist"
     },
     {
         "title": "Data Engineer, BDM",
@@ -333,7 +352,8 @@
             "Computer Science",
             "Data management",
             "DevOps"
-        ]
+        ],
+        "id": "45577-data-engineer-bdm"
     },
     {
         "title": "Data Analyste (H/F)",
@@ -347,7 +367,8 @@
         "tags": [
             "Architecture",
             "Tableau"
-        ]
+        ],
+        "id": "45563-data-analyste-hf"
     },
     {
         "title": "Staff Engineer, Data Analytics Engineering",
@@ -364,7 +385,8 @@
             "Engineering",
             "Mathematics",
             "Python"
-        ]
+        ],
+        "id": "45533-staff-engineer-data-analytics-engineering"
     },
     {
         "title": "Senior Data Analyst",
@@ -381,7 +403,8 @@
             "Data analysis",
             "Economics",
             "Excel"
-        ]
+        ],
+        "id": "45586-senior-data-analyst"
     },
     {
         "title": "Lead Data Scientist  (m/f/div.)",
@@ -398,7 +421,8 @@
             "Consulting",
             "Consulting firm",
             "FinTech"
-        ]
+        ],
+        "id": "45562-lead-data-scientist-mfdiv"
     },
     {
         "title": "Consultor AWS Data Analytics",
@@ -415,7 +439,8 @@
             "AWS",
             "Big Data",
             "Data Analytics"
-        ]
+        ],
+        "id": "45553-consultor-aws-data-analytics"
     },
     {
         "title": "Senior Machine Learning Engineer - Deep Learning & Computer Vision",
@@ -432,7 +457,8 @@
             "Computer Vision",
             "Deep Learning",
             "Engineering"
-        ]
+        ],
+        "id": "45573-senior-machine-learning-engineer-deep-learning-computer-vision"
     },
     {
         "title": "SAS Programmer (Medical, Clinical Science and Data Manager)",
@@ -449,7 +475,8 @@
             "Excel",
             "Privacy",
             "SAS"
-        ]
+        ],
+        "id": "45582-sas-programmer-medical-clinical-science-and-data-manager"
     },
     {
         "title": "Head of Data Engineering",
@@ -463,7 +490,8 @@
         "tags": [
             "Data strategy",
             "Engineering"
-        ]
+        ],
+        "id": "45528-head-of-data-engineering"
     },
     {
         "title": "Data Scientist",
@@ -480,7 +508,8 @@
             "Data Analytics",
             "Data Mining",
             "Data visualization"
-        ]
+        ],
+        "id": "45545-data-scientist"
     },
     {
         "title": "Senior Product Manager, Data Infrastructure and ML",
@@ -497,7 +526,8 @@
             "Crypto",
             "Data pipelines",
             "Engineering"
-        ]
+        ],
+        "id": "45532-senior-product-manager-data-infrastructure-and-ml"
     },
     {
         "title": "Elasticsearch Engineer",
@@ -514,7 +544,8 @@
             "Git",
             "JavaScript",
             "Kibana"
-        ]
+        ],
+        "id": "45531-elasticsearch-engineer"
     },
     {
         "title": "Machine Learning Engineer - Vungle Exchange",
@@ -531,7 +562,8 @@
             "Cassandra",
             "Computer Science",
             "EC2"
-        ]
+        ],
+        "id": "45572-machine-learning-engineer-vungle-exchange"
     },
     {
         "title": "Consultant Big Data & Machine Learning",
@@ -548,7 +580,8 @@
             "CSV",
             "Databricks",
             "DevOps"
-        ]
+        ],
+        "id": "45526-consultant-big-data-machine-learning"
     },
     {
         "title": "Software Engineer, AI/Analytics",
@@ -565,7 +598,8 @@
             "Data management",
             "DevOps",
             "Engineering"
-        ]
+        ],
+        "id": "45580-software-engineer-aianalytics"
     },
     {
         "title": "Senior Clinical Data Manager - Remote",
@@ -582,7 +616,8 @@
             "Engineering",
             "Excel",
             "Privacy"
-        ]
+        ],
+        "id": "45584-senior-clinical-data-manager-remote"
     },
     {
         "title": "Machine Learning Platform Lead",
@@ -599,7 +634,8 @@
             "Computer Vision",
             "Databricks",
             "E-commerce"
-        ]
+        ],
+        "id": "45571-machine-learning-platform-lead"
     },
     {
         "title": "Data Science Intern- Undergrad (Summer 2023)",
@@ -616,7 +652,8 @@
             "Data analysis",
             "Data Analytics",
             "Data strategy"
-        ]
+        ],
+        "id": "45542-data-science-intern-undergrad-summer-2023"
     },
     {
         "title": "Senior Data Analyst",
@@ -633,7 +670,8 @@
             "Data analysis",
             "Excel",
             "Power BI"
-        ]
+        ],
+        "id": "45549-senior-data-analyst"
     },
     {
         "title": "Data Scientist",
@@ -650,7 +688,8 @@
             "Consulting",
             "Databricks",
             "Data management"
-        ]
+        ],
+        "id": "45514-data-scientist"
     },
     {
         "title": "Sr. Data Engineer, Peacock",
@@ -667,7 +706,8 @@
             "Big Data",
             "BigQuery",
             "CI/CD"
-        ]
+        ],
+        "id": "45537-sr-data-engineer-peacock"
     },
     {
         "title": "Vice President, Data Strategy and Platforms (Data Architecture)",
@@ -684,7 +724,8 @@
             "Data strategy",
             "Finance",
             "Spark"
-        ]
+        ],
+        "id": "45529-vice-president-data-strategy-and-platforms-data-architecture"
     },
     {
         "title": "R&D Data Scientist Intern (Alternance)",
@@ -701,7 +742,8 @@
             "Deep Learning",
             "Engineering",
             "Keras"
-        ]
+        ],
+        "id": "45548-rd-data-scientist-intern-alternance"
     },
     {
         "title": "(Senior/Lead) Data Engineer Google Cloud (m/f/d)",
@@ -718,7 +760,8 @@
             "Bigtable",
             "Computer Science",
             "Consulting"
-        ]
+        ],
+        "id": "45556-seniorlead-data-engineer-google-cloud-mfd"
     },
     {
         "title": "Full Stack Software Engineer (ML Platform) - Remote",
@@ -735,7 +778,8 @@
             "Big Data",
             "Computer Science",
             "Data pipelines"
-        ]
+        ],
+        "id": "45535-full-stack-software-engineer-ml-platform-remote"
     },
     {
         "title": "Working Student in Machine Learning, Computer Vision & VR, Engineering Center, Cluj",
@@ -752,7 +796,8 @@
             "CUDA",
             "Deep Learning",
             "Engineering"
-        ]
+        ],
+        "id": "45498-working-student-in-machine-learning-computer-vision-vr-engineering-center-cluj"
     },
     {
         "title": "Data Analyst (CX Tech)",
@@ -769,7 +814,8 @@
             "Data visualization",
             "GCP",
             "Git"
-        ]
+        ],
+        "id": "45507-data-analyst-cx-tech"
     },
     {
         "title": "Senior Risk and Data Analyst",
@@ -784,7 +830,8 @@
             "Agile",
             "Excel",
             "Finance"
-        ]
+        ],
+        "id": "45492-senior-risk-and-data-analyst"
     },
     {
         "title": "PAS\u00e0PAS (MU) - Consultant Cloud Data Engineer",
@@ -801,7 +848,8 @@
             "AWS",
             "Azure",
             "Big Data"
-        ]
+        ],
+        "id": "45516-pasapas-mu-consultant-cloud-data-engineer"
     },
     {
         "title": "Alternance Data Analyst (H/F)",
@@ -818,7 +866,8 @@
             "Power BI",
             "Python",
             "R"
-        ]
+        ],
+        "id": "45509-alternance-data-analyst-hf"
     },
     {
         "title": "Senior Data Scientist  (E-Commerce Product Development Methodologist)",
@@ -835,7 +884,8 @@
             "Data analysis",
             "E-commerce",
             "Genetics"
-        ]
+        ],
+        "id": "45543-senior-data-scientist-e-commerce-product-development-methodologist"
     },
     {
         "title": "FDI - Data Analyst",
@@ -852,7 +902,8 @@
             "Data quality",
             "Excel",
             "Finance"
-        ]
+        ],
+        "id": "45506-fdi-data-analyst"
     },
     {
         "title": "MLOps Engineer Intern (Alternance)",
@@ -869,7 +920,8 @@
             "CI/CD",
             "Computer Science",
             "Databricks"
-        ]
+        ],
+        "id": "45520-mlops-engineer-intern-alternance"
     },
     {
         "title": "Data Scientist (NLP & ML) Intern (Alternance)",
@@ -886,7 +938,8 @@
             "C++",
             "Computer Science",
             "Deep Learning"
-        ]
+        ],
+        "id": "45524-data-scientist-nlp-ml-intern-alternance"
     },
     {
         "title": "Data Strategist",
@@ -899,7 +952,8 @@
         "description": "\n<p><strong>About the Team</strong></p>\n<p>As a member of the Data Solutions team, you will help evolve our data infrastructure, by redesigning and building code in novel, cloud-native architectures which involves refactoring. This team owns the data processing platform for our data business. Our competitive advantage as a company depends on this platform being among the best in the world, and that world moves very rapidly. Since we live on the emerging edge of what\u2019s possible, our team is made up of people who <em>love</em> to learn.</p>\n<p><strong>About the Job</strong></p>\n<p>The Data Solutions team manages the end-to-end lifecycle for several data assets. We operate cutting-edge high-volume data, as well as the backend processing, packaging of Data-as-a-Service (DaaS) feeds for dozens of B2B customers. Our platform runs in the AWS ecosystem, primarily in Python, Scala and Spark.</p>\n<p><strong>What you\u2019ll be doing:\u00a0</strong></p>\n<ul>\n<li>Designing and developing the next generation of our data product platform</li>\n<li>Serve as a mentor to junior members of the team.</li>\n<li>Partner with automation engineering to validate data pipelines and complex analytical automation</li>\n<li>Troubleshoot systemic issues and lead improvements</li>\n<li>Working with a team of outstanding software engineers and data scientists, covering a wide range of experience and perspectives at massive scale.</li>\n<li>Breaking down a full project plan in to incremental deliveries, and tracking your work against those steps</li>\n<li>Learning new tech and new ways to apply what you already know</li>\n</ul>\n<p><strong>About You</strong></p>\n<p>You\u2019re driven, thoughtful, and curious. You understand that making software do the right thing is only part of the battle - you also must think about what can cause your software to fail. You\u2019re comfortable working with a wide variety of people, and respect the perspectives of those that disagree with you. Above all, you love learning, and sharing what you know.</p>\n<p><strong>The successful candidate will have:</strong>\u00a0</p>\n<ul>\n<li>4+ years' software engineering experience and a passion for learning</li>\n<li>Collaborative mindset and curiosity about what you don\u2019t yet know</li>\n<li>Demonstrated ability to bring out the best in others</li>\n<li>Understanding of big data and distributed computing at scale</li>\n<li>Experience with cloud data processing tools in the AWS ecosystem</li>\n<li>Experience with data warehousing tools like Databricks</li>\n<li>Experience in Spark, SQL/NoSQL, Hadoop and MapReduce</li>\n<li>Strong Object-oriented or Functional skills in Scala and/or Python</li>\n<li>An analytical mindset with problem-solving skills</li>\n<li>Excellent communication and collaboration skills</li>\n<li>Desire for professional growth opportunities and to be in a dynamic learning environment</li>\n<li>Ability to efficiently multi-task and to work cooperatively and collaboratively with all levels of employees to maximize performance, creativity, problem solving and results</li>\n</ul>\n<p><strong>This position reports to: </strong>Engineering Manager, Data Solutions</p>\n<p><strong>Location: Boulder/Denver preferred. </strong>Open to Remote in these states: Arizona, California, Colorado, Georgia, Montana, New Jersey, New York, Texas and Washington.</p>\n<p>We understand that no candidate is perfectly qualified for any job. Experience comes in different forms; many skills are transferable; and passion goes a long way. Even more important than your resume is a clear demonstration of accountability impact, and the ability to thrive in a fluid and collaborative environment. We expect you to learn new things in this role, and we encourage you to apply if your experience is close to what we're looking for.</p>\n<p><strong>About Sovrn</strong></p>\n<p>Sovrn provides products and services to thousands of online publishers to help them understand, operate and grow their business. Sovrn is headquartered in Boulder, Colorado, with offices in New York, San Diego and London.\u00a0</p>\n<p>With thousands of customers deploying advertising, affiliate marketing, and data products across 40,000 websites, Sovrn reaches over 300 million active consumers across more than 11 billion pageviews every day. Sovrn has been a leader in online publisher technology since its founding and has been recognized by IAB, JICWEBS, and TAG for its role in combating fraud and promoting pro-transparency initiatives. Sovrn is dedicated to helping content creators do more of what they love, and less of what they don't.</p>\n<p><a><strong>Sovrn Core Values</strong></a>: Candid, Customer Empathy, Learning, Scrappy, Second Order Thinking</p>\n<p><strong>Compensation and Benefits</strong></p>\n<p>In accordance with the Colorado Equal Pay for Equal Work Act, the approximate compensation range for this role in Boulder, Colorado is $135,000 to $155,000, including base salary and any related bonuses or commissions. Final compensation for this role will be determined by various factors such as a candidate's relevant work experience, skills and certifications.</p>\n<p>Sovrn offers a full slate of benefits from competitive salaries, stock options, medical, dental and vision coverage, short and long term disability, life insurance, 11 paid holidays, flexible vacation, commuter benefits, a 401(k) plan and match, and a paid parental leave program.</p>\n<p><strong>Equal Opportunity Employer\u00a0</strong></p>\n<p>Sovrn is proud to be an Equal Opportunity Employer and provides equal employment opportunities to all employees and applicants regardless of race, color, religion, gender, gender identity, age, national origin, disability, parental or pregnancy status, marriage and civil partnership, sexual orientation, veteran status, or any other characteristic protected by law. Reasonable accommodations will be made to meet the requirements of the Americans with Disabilities Act and will be provided as requested by candidates taking part in all aspects of the selection process.\u00a0</p>\n<p><strong>Recruitment Agencies</strong></p>\n<p>Sovrn does not accept agency resumes. Please do not forward resumes to our jobs alias or Sovrn employees. Sovrn is not responsible for any fees related to unsolicited resumes.</p>\n",
         "tags": [
             "Data Analytics"
-        ]
+        ],
+        "id": "45493-data-strategist"
     },
     {
         "title": "Junior Data Operations Specialist (m/f/d)",
@@ -914,7 +968,8 @@
             "DataOps",
             "Finance",
             "Flink"
-        ]
+        ],
+        "id": "45541-junior-data-operations-specialist-mfd"
     },
     {
         "title": "ETL Developer/Data Engineer (BEL)",
@@ -931,7 +986,8 @@
             "Data Analytics",
             "DataOps",
             "Data pipelines"
-        ]
+        ],
+        "id": "45536-etl-developerdata-engineer-bel"
     },
     {
         "title": "Working Student in Data Science & AI, Data Engineering, Engineering Center, Cluj",
@@ -948,7 +1004,8 @@
             "Data Mining",
             "Data visualization",
             "Docker"
-        ]
+        ],
+        "id": "45500-working-student-in-data-science-ai-data-engineering-engineering-center-cluj"
     },
     {
         "title": "Junior Data Analyst - Dailymotion Advertising (All Genders)",
@@ -965,7 +1022,8 @@
             "Data analysis",
             "Data Studio",
             "Market research"
-        ]
+        ],
+        "id": "45551-junior-data-analyst-dailymotion-advertising-all-genders"
     },
     {
         "title": "Data Analyst, Partnerships",
@@ -979,7 +1037,8 @@
         "tags": [
             "Data analysis",
             "Excel"
-        ]
+        ],
+        "id": "45552-data-analyst-partnerships"
     },
     {
         "title": "Data Analytics Engineer H/F",
@@ -996,7 +1055,8 @@
             "Architecture",
             "AWS",
             "Big Data"
-        ]
+        ],
+        "id": "45415-data-analytics-engineer-hf"
     },
     {
         "title": "Staff Machine Learning Engineer & Technical Lead - Search & Recommendation",
@@ -1013,7 +1073,8 @@
             "Elasticsearch",
             "Engineering",
             "Genetics"
-        ]
+        ],
+        "id": "45477-staff-machine-learning-engineer-technical-lead-search-recommendation"
     },
     {
         "title": "Deep Learning Scientist",
@@ -1030,7 +1091,8 @@
             "Biology",
             "Computer Science",
             "Deep Learning"
-        ]
+        ],
+        "id": "45419-deep-learning-scientist"
     },
     {
         "title": "Scientist 3, Data Science",
@@ -1047,7 +1109,8 @@
             "Bayesian",
             "Big Data",
             "Clustering"
-        ]
+        ],
+        "id": "45488-scientist-3-data-science"
     },
     {
         "title": "Senior Market Research Analyst",
@@ -1064,7 +1127,8 @@
             "Econometrics",
             "Excel",
             "KPIs"
-        ]
+        ],
+        "id": "45454-senior-market-research-analyst"
     },
     {
         "title": "CRM Data Analyst",
@@ -1081,7 +1145,8 @@
             "ETL",
             "Python",
             "R"
-        ]
+        ],
+        "id": "45422-crm-data-analyst"
     },
     {
         "title": "Software Engineer - Machine Learning Infrastructure",
@@ -1098,7 +1163,8 @@
             "Engineering",
             "Machine Learning",
             "ML infrastructure"
-        ]
+        ],
+        "id": "45473-software-engineer-machine-learning-infrastructure"
     },
     {
         "title": "Data Analyst / Data Scientist Intern (H/F/X) - July 2023",
@@ -1115,7 +1181,8 @@
             "Data analysis",
             "Data visualization",
             "KPIs"
-        ]
+        ],
+        "id": "45407-data-analyst-data-scientist-intern-hfx-july-2023"
     },
     {
         "title": "Data Science Intern",
@@ -1132,7 +1199,8 @@
             "Computer Science",
             "CSV",
             "DynamoDB"
-        ]
+        ],
+        "id": "45406-data-science-intern"
     },
     {
         "title": "Associate Director, Data Analytics",
@@ -1149,7 +1217,8 @@
             "Consulting",
             "Consulting firm",
             "Data analysis"
-        ]
+        ],
+        "id": "45436-associate-director-data-analytics"
     },
     {
         "title": "Data Scientist - Internship",
@@ -1166,7 +1235,8 @@
             "Machine Learning",
             "ML models",
             "MLOps"
-        ]
+        ],
+        "id": "45405-data-scientist-internship"
     },
     {
         "title": "(Remote) Data Engineer",
@@ -1183,7 +1253,8 @@
             "Azure",
             "Big Data",
             "CI/CD"
-        ]
+        ],
+        "id": "45469-remote-data-engineer"
     },
     {
         "title": "Data Engineer",
@@ -1200,7 +1271,8 @@
             "AWS",
             "Azure",
             "Big Data"
-        ]
+        ],
+        "id": "45467-data-engineer"
     },
     {
         "title": "Big Data Engineer (Scala-Spark)",
@@ -1217,7 +1289,8 @@
             "BigQuery",
             "Data pipelines",
             "Data warehouse"
-        ]
+        ],
+        "id": "45502-big-data-engineer-scala-spark"
     },
     {
         "title": "Senior Manager of Data Engineering",
@@ -1234,7 +1307,8 @@
             "Architecture",
             "AWS",
             "Azure"
-        ]
+        ],
+        "id": "45464-senior-manager-of-data-engineering"
     },
     {
         "title": "Senior Data Scientist - Ads Formats",
@@ -1251,7 +1325,8 @@
             "Machine Learning",
             "Python",
             "R"
-        ]
+        ],
+        "id": "45398-senior-data-scientist-ads-formats"
     },
     {
         "title": "Senior Data Scientist - Ads Modeling",
@@ -1268,7 +1343,8 @@
             "E-commerce",
             "Engineering",
             "Excel"
-        ]
+        ],
+        "id": "45401-senior-data-scientist-ads-modeling"
     },
     {
         "title": "BigData DevOps Manager",
@@ -1285,7 +1361,8 @@
             "AWS",
             "Big Data",
             "CI/CD"
-        ]
+        ],
+        "id": "45487-bigdata-devops-manager"
     },
     {
         "title": "Senior Technical Program Manager, Data Operations",
@@ -1302,7 +1379,8 @@
             "Blockchain",
             "Consulting",
             "Data analysis"
-        ]
+        ],
+        "id": "45390-senior-technical-program-manager-data-operations"
     },
     {
         "title": "Data Scientist, Invoices",
@@ -1319,7 +1397,8 @@
             "Blockchain",
             "Clustering",
             "Crypto"
-        ]
+        ],
+        "id": "45399-data-scientist-invoices"
     },
     {
         "title": "Principal Software Engineer, Applied ML",
@@ -1336,7 +1415,8 @@
             "Deep Learning",
             "Diffusion models",
             "Genetics"
-        ]
+        ],
+        "id": "45452-principal-software-engineer-applied-ml"
     },
     {
         "title": "Data Analyst, Finance and Accounting",
@@ -1353,7 +1433,8 @@
             "Finance",
             "Security",
             "SQL"
-        ]
+        ],
+        "id": "45431-data-analyst-finance-and-accounting"
     },
     {
         "title": "(Senior) Digital Analytics Engineer",
@@ -1370,7 +1451,8 @@
             "APIs",
             "Computer Science",
             "Engineering"
-        ]
+        ],
+        "id": "45417-senior-digital-analytics-engineer"
     },
     {
         "title": "Senior Data Analyst",
@@ -1387,7 +1469,8 @@
             "Clustering",
             "Data analysis",
             "Data Analytics"
-        ]
+        ],
+        "id": "45432-senior-data-analyst"
     },
     {
         "title": "Machine Learning Engineer, Payment Optimizations",
@@ -1404,7 +1487,8 @@
             "Engineering",
             "Machine Learning",
             "ML infrastructure"
-        ]
+        ],
+        "id": "45475-machine-learning-engineer-payment-optimizations"
     },
     {
         "title": "Data Analyst Specialist (Full remote within Spain)",
@@ -1421,7 +1505,8 @@
             "Computer Science",
             "Data Analytics",
             "Data Mining"
-        ]
+        ],
+        "id": "45439-data-analyst-specialist-full-remote-within-spain"
     },
     {
         "title": "Data Engineer - (Viator)",
@@ -1438,7 +1523,8 @@
             "AWS",
             "Engineering",
             "ETL"
-        ]
+        ],
+        "id": "45466-data-engineer-viator"
     },
     {
         "title": "CRM-/Data Specialist Benelux",
@@ -1451,7 +1537,8 @@
         "description": "\n<p><strong>About the Team</strong></p>\n<p>As a member of the Data Solutions team, you will help evolve our data infrastructure, by redesigning and building code in novel, cloud-native architectures which involves refactoring. This team owns the data processing platform for our data business. Our competitive advantage as a company depends on this platform being among the best in the world, and that world moves very rapidly. Since we live on the emerging edge of what\u2019s possible, our team is made up of people who <em>love</em> to learn.</p>\n<p><strong>About the Job</strong></p>\n<p>The Data Solutions team manages the end-to-end lifecycle for several data assets. We operate cutting-edge high-volume data, as well as the backend processing, packaging of Data-as-a-Service (DaaS) feeds for dozens of B2B customers. Our platform runs in the AWS ecosystem, primarily in Python, Scala and Spark.</p>\n<p><strong>What you\u2019ll be doing:\u00a0</strong></p>\n<ul>\n<li>Designing and developing the next generation of our data product platform</li>\n<li>Serve as a mentor to junior members of the team.</li>\n<li>Partner with automation engineering to validate data pipelines and complex analytical automation</li>\n<li>Troubleshoot systemic issues and lead improvements</li>\n<li>Working with a team of outstanding software engineers and data scientists, covering a wide range of experience and perspectives at massive scale.</li>\n<li>Breaking down a full project plan in to incremental deliveries, and tracking your work against those steps</li>\n<li>Learning new tech and new ways to apply what you already know</li>\n</ul>\n<p><strong>About You</strong></p>\n<p>You\u2019re driven, thoughtful, and curious. You understand that making software do the right thing is only part of the battle - you also must think about what can cause your software to fail. You\u2019re comfortable working with a wide variety of people, and respect the perspectives of those that disagree with you. Above all, you love learning, and sharing what you know.</p>\n<p><strong>The successful candidate will have:</strong>\u00a0</p>\n<ul>\n<li>4+ years' software engineering experience and a passion for learning</li>\n<li>Collaborative mindset and curiosity about what you don\u2019t yet know</li>\n<li>Demonstrated ability to bring out the best in others</li>\n<li>Understanding of big data and distributed computing at scale</li>\n<li>Experience with cloud data processing tools in the AWS ecosystem</li>\n<li>Experience with data warehousing tools like Databricks</li>\n<li>Experience in Spark, SQL/NoSQL, Hadoop and MapReduce</li>\n<li>Strong Object-oriented or Functional skills in Scala and/or Python</li>\n<li>An analytical mindset with problem-solving skills</li>\n<li>Excellent communication and collaboration skills</li>\n<li>Desire for professional growth opportunities and to be in a dynamic learning environment</li>\n<li>Ability to efficiently multi-task and to work cooperatively and collaboratively with all levels of employees to maximize performance, creativity, problem solving and results</li>\n</ul>\n<p><strong>This position reports to: </strong>Engineering Manager, Data Solutions</p>\n<p><strong>Location: Boulder/Denver preferred. </strong>Open to Remote in these states: Arizona, California, Colorado, Georgia, Montana, New Jersey, New York, Texas and Washington.</p>\n<p>We understand that no candidate is perfectly qualified for any job. Experience comes in different forms; many skills are transferable; and passion goes a long way. Even more important than your resume is a clear demonstration of accountability impact, and the ability to thrive in a fluid and collaborative environment. We expect you to learn new things in this role, and we encourage you to apply if your experience is close to what we're looking for.</p>\n<p><strong>About Sovrn</strong></p>\n<p>Sovrn provides products and services to thousands of online publishers to help them understand, operate and grow their business. Sovrn is headquartered in Boulder, Colorado, with offices in New York, San Diego and London.\u00a0</p>\n<p>With thousands of customers deploying advertising, affiliate marketing, and data products across 40,000 websites, Sovrn reaches over 300 million active consumers across more than 11 billion pageviews every day. Sovrn has been a leader in online publisher technology since its founding and has been recognized by IAB, JICWEBS, and TAG for its role in combating fraud and promoting pro-transparency initiatives. Sovrn is dedicated to helping content creators do more of what they love, and less of what they don't.</p>\n<p><a><strong>Sovrn Core Values</strong></a>: Candid, Customer Empathy, Learning, Scrappy, Second Order Thinking</p>\n<p><strong>Compensation and Benefits</strong></p>\n<p>In accordance with the Colorado Equal Pay for Equal Work Act, the approximate compensation range for this role in Boulder, Colorado is $135,000 to $155,000, including base salary and any related bonuses or commissions. Final compensation for this role will be determined by various factors such as a candidate's relevant work experience, skills and certifications.</p>\n<p>Sovrn offers a full slate of benefits from competitive salaries, stock options, medical, dental and vision coverage, short and long term disability, life insurance, 11 paid holidays, flexible vacation, commuter benefits, a 401(k) plan and match, and a paid parental leave program.</p>\n<p><strong>Equal Opportunity Employer\u00a0</strong></p>\n<p>Sovrn is proud to be an Equal Opportunity Employer and provides equal employment opportunities to all employees and applicants regardless of race, color, religion, gender, gender identity, age, national origin, disability, parental or pregnancy status, marriage and civil partnership, sexual orientation, veteran status, or any other characteristic protected by law. Reasonable accommodations will be made to meet the requirements of the Americans with Disabilities Act and will be provided as requested by candidates taking part in all aspects of the selection process.\u00a0</p>\n<p><strong>Recruitment Agencies</strong></p>\n<p>Sovrn does not accept agency resumes. Please do not forward resumes to our jobs alias or Sovrn employees. Sovrn is not responsible for any fees related to unsolicited resumes.</p>\n",
         "tags": [
             "Qlik"
-        ]
+        ],
+        "id": "45515-crm-data-specialist-benelux"
     },
     {
         "title": "Senior Machine Learning Engineer",
@@ -1468,7 +1555,8 @@
             "APIs",
             "AWS",
             "Data pipelines"
-        ]
+        ],
+        "id": "45474-senior-machine-learning-engineer"
     },
     {
         "title": "Director, Data Analytics",
@@ -1485,7 +1573,8 @@
             "Data analysis",
             "Data Analytics",
             "Data governance"
-        ]
+        ],
+        "id": "45434-director-data-analytics"
     },
     {
         "title": "Senior Data Visualization Engineer",
@@ -1502,7 +1591,8 @@
             "Data visualization",
             "Engineering",
             "Jupyter"
-        ]
+        ],
+        "id": "45446-senior-data-visualization-engineer"
     },
     {
         "title": "Entry Level Data Scientist",
@@ -1516,7 +1606,8 @@
         "tags": [
             "Chemistry",
             "Testing"
-        ]
+        ],
+        "id": "45511-entry-level-data-scientist"
     },
     {
         "title": "Senior Data Quality Analyst, Direct-to-Consumer",
@@ -1533,7 +1624,8 @@
             "BigQuery",
             "Data analysis",
             "Data Analytics"
-        ]
+        ],
+        "id": "45413-senior-data-quality-analyst-direct-to-consumer"
     },
     {
         "title": "Senior Data Scientist",
@@ -1550,7 +1642,8 @@
             "Data analysis",
             "Data quality",
             "Economics"
-        ]
+        ],
+        "id": "45397-senior-data-scientist"
     },
     {
         "title": "Master Data Analyst",
@@ -1565,7 +1658,8 @@
             "Agile",
             "Data management",
             "Data quality"
-        ]
+        ],
+        "id": "45433-master-data-analyst"
     },
     {
         "title": "Sales Data Analyst",
@@ -1582,7 +1676,8 @@
             "GCP",
             "Metabase",
             "SQL"
-        ]
+        ],
+        "id": "45435-sales-data-analyst"
     },
     {
         "title": "Data Scientist, Sr. Consultant - Cybersecurity AI Research & Products",
@@ -1599,7 +1694,8 @@
             "Cassandra",
             "Clustering",
             "Data Mining"
-        ]
+        ],
+        "id": "45396-data-scientist-sr-consultant-cybersecurity-ai-research-products"
     },
     {
         "title": "Data Scientist Intern",
@@ -1616,7 +1712,8 @@
             "Business Analytics",
             "Data analysis",
             "Data Analytics"
-        ]
+        ],
+        "id": "45400-data-scientist-intern"
     },
     {
         "title": "Senior Research Data Analyst",
@@ -1633,7 +1730,8 @@
             "Pipelines",
             "Python",
             "R"
-        ]
+        ],
+        "id": "45420-senior-research-data-analyst"
     },
     {
         "title": "Director, Commercial Data Analysis",
@@ -1650,7 +1748,8 @@
             "Genetics",
             "SQL",
             "Statistics"
-        ]
+        ],
+        "id": "45424-director-commercial-data-analysis"
     },
     {
         "title": "Sr. Software Engineer, Data Solutions",
@@ -1667,6 +1766,7 @@
             "Big Data",
             "Databricks",
             "Data pipelines"
-        ]
+        ],
+        "id": "45457-sr-software-engineer-data-solutions"
     }
 ]
