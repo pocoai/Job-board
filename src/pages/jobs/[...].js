@@ -52,7 +52,7 @@ const JobPage = (props) => {
 					</Box>
 					<LinkBox>
 						<LinkOverlay href={job?.apply_link} isExternal>
-							<Button  ml={[null, null, null, null, '40']} w={['2xs', 'xs', 'sm']} colorScheme={'blue'}>Apply on the Job</Button>
+							<Button  ml={[null, null, null, null, '40']} w={['2xs', 'xs', 'sm']} colorScheme={'blue'}>Apply for the Job</Button>
 						</LinkOverlay>
 					</LinkBox>
 				</Stack>
@@ -61,7 +61,7 @@ const JobPage = (props) => {
 					<Box p={['4', '8']}>{job.description && parse(job.description)}</Box>
 					<LinkBox>
 						<LinkOverlay href={job?.apply_link} isExternal>
-							<Button w={['2xs', 'xs', 'sm', 'sm', '2xl']} colorScheme={'blue'}>Apply on the Job</Button>
+							<Button w={['2xs', 'xs', 'sm', 'sm', '2xl']} colorScheme={'blue'}>Apply for the Job</Button>
 						</LinkOverlay>
 					</LinkBox>
 				</Stack>
